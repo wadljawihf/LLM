@@ -1,0 +1,8 @@
+[
+  {
+    "sub_rule": "SR01_SpecialEscape",
+    "related_configuration": "<module name=\"TreeWalker\">\n        <module name=\"IllegalTokenText\">\n            <property name=\"tokens\" value=\"STRING_LITERAL, CHAR_LITERAL\"/>\n            <property name=\"format\"\n                value=\"\\\\u00(08|09|0(a|A)|0(c|C)|0(d|D)|22|27|5(C|c)|a0)|\\\\(0(10|11|12|14|15|42|47)|134|u200[2-9a-dA-D]|u202F|u3000)\"/>\n            <property name=\"message\"\n                   value=\"Consider using special escape sequence instead of octal value or Unicode escaped value.\"/>\n        </module>\n    </module>",
+    "support_level": "supported",
+    "explanation": ""
+  }
+]

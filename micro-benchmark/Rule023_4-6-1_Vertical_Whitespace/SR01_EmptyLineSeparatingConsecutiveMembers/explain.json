@@ -1,0 +1,8 @@
+[
+  {
+    "sub_rule": "SR01_EmptyLineSeparatingConsecutiveMembers",
+    "related_configuration": "<module name=\"TreeWalker\">\n        <module name=\"EmptyLineSeparator\">\n            <property name=\"tokens\"\n                   value=\"CLASS_DEF, INTERFACE_DEF, ENUM_DEF,\n                        STATIC_INIT, INSTANCE_INIT, METHOD_DEF, CTOR_DEF, VARIABLE_DEF, RECORD_DEF,\n                        COMPACT_CTOR_DEF\"/>\n            <property name=\"allowNoEmptyLineBetweenFields\" value=\"true\"/>\n        </module>\n    </module>",
+    "support_level": "over_supported",
+    "explanation": "The EmptyLineSeparator check treats all CLASS_DEF equally and does not distinguish between nested and top-level classes. This may lead to false positives when multiple top-level classes are declared in the same file, as it can incorrectly require empty lines between them."
+  }
+]

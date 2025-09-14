@@ -1,0 +1,2 @@
+class UTF8Coded{
+}

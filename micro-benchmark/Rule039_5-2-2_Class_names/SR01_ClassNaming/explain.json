@@ -1,0 +1,8 @@
+[
+  {
+    "sub_rule": "SR01_ClassNaming",
+    "related_configuration": "<module name=\"TreeWalker\">\n        <module name=\"TypeName\">\n            <property name=\"tokens\" value=\"CLASS_DEF, INTERFACE_DEF, ENUM_DEF,\n                        ANNOTATION_DEF, RECORD_DEF\"/>\n            <message key=\"name.invalidPattern\"\n                 value=\"Type name ''{0}'' must match pattern ''{1}''.\"/>\n        </module>\n    </module>",
+    "support_level": "supported",
+    "explanation": ""
+  }
+]

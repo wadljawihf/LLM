@@ -1,0 +1,8 @@
+[
+  {
+    "sub_rule": "SR01_NeedBraces",
+    "related_configuration": "<module name=\"TreeWalker\">\n        <module name=\"NeedBraces\">\n            <property name=\"tokens\" value=\"LITERAL_DO, LITERAL_ELSE, LITERAL_FOR, LITERAL_IF, LITERAL_WHILE\"/>\n        </module>\n    </module>",
+    "support_level": "supported",
+    "explanation": "Checkstyle does not build an AST for module-info.java files, so it cannot check blank lines between module directive blocks."
+  }
+]

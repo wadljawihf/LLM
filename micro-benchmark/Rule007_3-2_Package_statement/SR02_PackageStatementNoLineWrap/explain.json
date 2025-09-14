@@ -1,0 +1,8 @@
+[
+  {
+    "sub_rule": "SR02_PackageStatementNoLineWrap",
+    "related_configuration": "<module name=\"TreeWalker\">\n        <module name=\"NoLineWrap\">\n            <property name=\"tokens\" value=\"PACKAGE_DEF\"/>\n        </module>\n    </module>",
+    "support_level": "supported",
+    "explanation": ""
+  }
+]

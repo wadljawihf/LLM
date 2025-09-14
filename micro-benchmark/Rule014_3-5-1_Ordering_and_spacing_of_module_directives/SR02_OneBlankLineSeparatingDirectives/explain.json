@@ -1,0 +1,8 @@
+[
+  {
+    "sub_rule": "SR02_OneBlankLineSeparatingDirectives",
+    "related_configuration": "",
+    "support_level": "unsupported",
+    "explanation": "Checkstyle does not build an AST for module-info.java files, so it cannot check blank lines between module directive blocks."
+  }
+]

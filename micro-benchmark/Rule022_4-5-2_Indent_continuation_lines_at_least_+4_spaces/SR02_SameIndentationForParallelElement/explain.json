@@ -1,0 +1,8 @@
+[
+  {
+    "sub_rule": "SR02_SameIndentationForParallelElement",
+    "related_configuration": "<module name=\"TreeWalker\">\n        <module name=\"Indentation\">\n            <property name=\"basicOffset\" value=\"2\"/>\n            <property name=\"braceAdjustment\" value=\"2\"/>\n            <property name=\"caseIndent\" value=\"2\"/>\n            <property name=\"throwsIndent\" value=\"4\"/>\n            <property name=\"lineWrappingIndentation\" value=\"4\"/>\n            <property name=\"arrayInitIndent\" value=\"2\"/>\n        </module>\n    </module>",
+    "support_level": "unsupported",
+    "explanation": "Checkstyle's Indentation check does not analyze whether multiple syntactically parallel elements—such as method parameters or array values—share the same indentation level. As a result, consistent indentation for parallel elements cannot be enforced."
+  }
+]

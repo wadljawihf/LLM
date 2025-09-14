@@ -1,0 +1,19 @@
+[
+  {
+    "rule": "5.2.5 Non-constant field names",
+    "sub_rules": [
+      {
+        "sub_rule": "SR01_NoneConstantFieldNaming",
+        "content": "Non-constant field names (static or otherwise) are written in lowerCamelCase.",
+        "relationship": "属性限定关系",
+        "formalization": "non_constant_field_name must be constrained to be lowerCamelCase"
+      },
+      {
+        "sub_rule": "SR02_FieldNameNoun",
+        "content": "These names are typically nouns or noun phrases",
+        "relationship": "属性限定关系",
+        "formalization": "non_constant_field.name must be constrained to be noun_or_noun_phrase"
+      }
+    ]
+  }
+]

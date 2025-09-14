@@ -1,0 +1,8 @@
+[
+  {
+    "sub_rule": "SR01_UTF8",
+    "related_configuration": "<property name=\"charset\" value=\"UTF-8\"/>",
+    "support_level": "unsupported",
+    "explanation": "This property sets the expected charset for reading source files, and can prevent issues when the encoding mismatches. However, it does not enforce or report violations if the file is not UTF-8 encoded."
+  }
+]

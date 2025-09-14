@@ -1,0 +1,8 @@
+[
+  {
+    "sub_rule": "SR02_EasierToRead",
+    "related_configuration": "",
+    "support_level": "unsupported",
+    "explanation": "This rule concerns code readability preferences (e.g., using ∞ instead of \\u221e), which are subjective and cannot be enforced through Checkstyle."
+  }
+]

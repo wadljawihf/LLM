@@ -1,0 +1,4 @@
+
+interface OneInterface {
+  void execute();
+}

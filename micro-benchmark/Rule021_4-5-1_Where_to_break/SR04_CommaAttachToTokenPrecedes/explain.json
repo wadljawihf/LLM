@@ -1,0 +1,8 @@
+[
+  {
+    "sub_rule": "SR04_CommaAttachToTokenPrecedes",
+    "related_configuration": "<module name=\"TreeWalker\">\n        <module name=\"NoWhitespaceBefore\">\n            <property name=\"tokens\"\n                   value=\"COMMA\"/>\n            <property name=\"allowLineBreaks\" value=\"true\"/>\n        </module>\n        <module name=\"SeparatorWrap\">\n            <property name=\"id\" value=\"SeparatorWrapComma\"/>\n            <property name=\"tokens\" value=\"COMMA\"/>\n            <property name=\"option\" value=\"EOL\"/>\n        </module>\n    </module>",
+    "support_level": "supported",
+    "explanation": ""
+  }
+]

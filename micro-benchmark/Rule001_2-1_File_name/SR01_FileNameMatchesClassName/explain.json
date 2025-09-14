@@ -1,0 +1,8 @@
+[
+  {
+    "sub_rule": "SR01_FileNameMatchesClassName",
+    "related_configuration": "<module name=\"TreeWalker\">\n        <module name=\"OuterTypeFilename\"/>\n    </module>",
+    "support_level": "supported",
+    "explanation": ""
+  }
+]

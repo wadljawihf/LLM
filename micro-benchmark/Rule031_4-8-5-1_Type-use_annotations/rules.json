@@ -1,0 +1,13 @@
+[
+  {
+    "rule": "4.8.5.1 Type-use annotations",
+    "sub_rules": [
+      {
+        "sub_rule": "SR01_TypeAnnotationPlace",
+        "content": "Type-use annotations appear immediately before the annotated type. An annotation is a type-use annotation if it is meta-annotated with @Target(ElementType.TYPE_USE). Example:\n\nfinal @Nullable String name;\n\npublic @Nullable Person getPersonByName(String name);",
+        "relationship": "顺序关系",
+        "formalization": "type_use_annotation, annotated_type must be arranged in the given order"
+      }
+    ]
+  }
+]

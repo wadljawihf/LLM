@@ -1,0 +1,8 @@
+[
+  {
+    "sub_rule": "SR02_MethodAnnotationNum",
+    "related_configuration": "<module name=\"TreeWalker\">\n        <module name=\"AnnotationLocation\">\n          <property name=\"id\" value=\"MethodAnnotationLocation\"/>\n          <property name=\"tokens\" value=\" METHOD_DEF, CTOR_DEF, COMPACT_CTOR_DEF\"/>\n        </module>\n    </module>",
+    "support_level": "supported",
+    "explanation": ""
+  }
+]

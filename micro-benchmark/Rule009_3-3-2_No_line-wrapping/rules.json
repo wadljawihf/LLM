@@ -1,0 +1,19 @@
+[
+  {
+    "rule": "3.3.2 No line-wrapping",
+    "sub_rules": [
+      {
+        "sub_rule": "SR01_ImportStatementLength",
+        "content": "The column limit (Section 4.4, Column limit: 100) does not apply to import statements.",
+        "relationship": "数量限定关系",
+        "formalization": "the quantity of import_statement may be greater than100"
+      },
+      {
+        "sub_rule": "SR02_ImportStatementNoLineWrap",
+        "content": "Import statements are not line-wrapped.",
+        "relationship": "包含关系",
+        "formalization": "import_statement must not contain line_wrapped_character"
+      }
+    ]
+  }
+]

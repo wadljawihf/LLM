@@ -1,0 +1,13 @@
+[
+  {
+    "rule": "6.4 Finalizers: not used",
+    "sub_rules": [
+      {
+        "sub_rule": "SR01_NoFinalizers",
+        "content": "Do not override Object.finalize. Finalization support is scheduled for removal.",
+        "relationship": "包含关系",
+        "formalization": "file must not contain Object.finalize"
+      }
+    ]
+  }
+]

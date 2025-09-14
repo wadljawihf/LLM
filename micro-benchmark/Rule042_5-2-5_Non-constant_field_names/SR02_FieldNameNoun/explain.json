@@ -1,0 +1,8 @@
+[
+  {
+    "sub_rule": "SR02_FieldNameNoun",
+    "related_configuration": "",
+    "support_level": "unsupported",
+    "explanation": "There is no Check about the grammatical form (e.g., part of speech) of field names"
+  }
+]

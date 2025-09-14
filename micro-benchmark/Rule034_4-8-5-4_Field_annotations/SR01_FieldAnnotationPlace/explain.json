@@ -1,0 +1,8 @@
+[
+  {
+    "sub_rule": "SR01_FieldAnnotationPlace",
+    "related_configuration": "<module name=\"TreeWalker\">\n        <module name=\"AnnotationLocation\">\n            <property name=\"id\" value=\"FieldAnnotationLocation\"/>\n            <property name=\"tokens\" value=\"VARIABLE_DEF\"/>\n            <property name=\"allowSamelineMultipleAnnotations\" value=\"true\"/>\n        </module>\n    </module>",
+    "support_level": "unsupported",
+    "explanation": "AnnotationLocation can not check the location of field annotations"
+  }
+]

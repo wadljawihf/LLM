@@ -1,0 +1,8 @@
+[
+  {
+    "sub_rule": "SR02_OneBlankLineSeparating",
+    "related_configuration": "",
+    "support_level": "over_supported",
+    "explanation": "Checkstyle does not distinguish nested classes when processing CLASS_DEF tokens, which may lead to additional blank line checks between nested classes."
+  }
+]

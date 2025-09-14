@@ -1,0 +1,13 @@
+[
+  {
+    "rule": "4.8.8 Numeric Literals",
+    "sub_rules": [
+      {
+        "sub_rule": "SR01_NoLowerL",
+        "content": "long-valued integer literals use an uppercase L suffix, never lowercase (to avoid confusion with the digit 1). For example, 3000000000L rather than 3000000000l.",
+        "relationship": "包含关系",
+        "formalization": "long-valued integer literals must not contain a lowercase l suffix,"
+      }
+    ]
+  }
+]

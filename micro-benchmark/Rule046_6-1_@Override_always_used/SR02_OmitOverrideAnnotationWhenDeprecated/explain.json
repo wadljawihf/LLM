@@ -1,0 +1,8 @@
+[
+  {
+    "sub_rule": "SR02_OmitOverrideAnnotationWhenDeprecated",
+    "related_configuration": "",
+    "support_level": "unsupported",
+    "explanation": ""
+  }
+]

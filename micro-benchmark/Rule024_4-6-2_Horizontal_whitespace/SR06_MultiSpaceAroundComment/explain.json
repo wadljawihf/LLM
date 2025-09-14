@@ -1,0 +1,8 @@
+[
+  {
+    "sub_rule": "SR06_MultiSpaceAroundComment",
+    "related_configuration": "",
+    "support_level": "unsupported",
+    "explanation": "No Check about a double slash (//)"
+  }
+]

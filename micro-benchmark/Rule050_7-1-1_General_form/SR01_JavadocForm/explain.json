@@ -1,0 +1,8 @@
+[
+  {
+    "sub_rule": "SR01_JavadocForm",
+    "related_configuration": "<module name=\"TreeWalker\">\n        <module name=\"SingleLineJavadoc\"/>\n        <module name=\"InvalidJavadocPosition\"/>\n        <module name=\"RequireEmptyLineBeforeBlockTagGroup\"/>\n    </module>",
+    "support_level": "under_supported",
+    "explanation": "There is no check for some Javadoc form like the beginning star character(*)."
+  }
+]

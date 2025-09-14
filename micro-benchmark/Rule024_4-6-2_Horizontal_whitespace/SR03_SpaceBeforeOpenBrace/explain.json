@@ -1,0 +1,8 @@
+[
+  {
+    "sub_rule": "SR03_SpaceBeforeOpenBrace",
+    "related_configuration": "<module name=\"TreeWalker\">\n        <module name=\"WhitespaceAround\">\n            <property name=\"allowEmptyConstructors\" value=\"true\"/>\n            <property name=\"allowEmptyLambdas\" value=\"true\"/>\n            <property name=\"allowEmptyMethods\" value=\"true\"/>\n            <property name=\"allowEmptyTypes\" value=\"true\"/>\n            <property name=\"allowEmptyLoops\" value=\"true\"/>\n            <property name=\"allowEmptySwitchBlockStatements\" value=\"true\"/>\n            <property name=\"ignoreEnhancedForColon\" value=\"false\"/>\n            <property name=\"tokens\"\n                   value=\"LCURLY, SLIST\"/>\n        </module>\n    </module>",
+    "support_level": "under_supported, over_supported",
+    "explanation": "The WhitespaceAround check on LCURLY validates that there is some space around the opening brace, but it does not ensure that the space appears specifically before it, nor does it enforce that it is exactly one ASCII space. This leads to under-support due to lack of precision and over-support because it may incorrectly check for spacing after the brace, which is outside the rule's intent."
+  }
+]

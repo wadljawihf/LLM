@@ -1,0 +1,19 @@
+[
+  {
+    "rule": "6.1 @Override: always used",
+    "sub_rules": [
+      {
+        "sub_rule": "SR01_OverrideAnnotation",
+        "content": "A method is marked with the @Override annotation whenever it is legal. This includes a class method overriding a superclass method, a class method implementing an interface method, and an interface method respecifying a superinterface method.",
+        "relationship": "伴随关系",
+        "formalization": "before OverrideMethod must be constrained to be @Override"
+      },
+      {
+        "sub_rule": "SR02_OmitOverrideAnnotationWhenDeprecated",
+        "content": "Exception: @Override may be omitted when the parent method is @Deprecated.",
+        "relationship": "伴随关系",
+        "formalization": "before (OverrideMethod with @Deprecated) could be constrained to be @Override"
+      }
+    ]
+  }
+]

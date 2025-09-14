@@ -1,0 +1,8 @@
+[
+  {
+    "sub_rule": "SR01_Only0x20",
+    "related_configuration": "<module name=\"FileTabCharacter\">\n        <property name=\"eachLine\" value=\"true\"/>\n    </module>\n    <module name=\"TreeWalker\">\n        <module name=\"RegexpSinglelineJava\">\n            <property name=\"format\" value=\"[\\u0008\\f\\v\\u00A0\\u2002-\\u200D\\u202F\\u3000\\r]\"/>\n            <property name=\"message\" value=\"Disallowed whitespace character detected.\"/>\n        </module>\n    </module>",
+    "support_level": "supported",
+    "explanation": "Checkstyle provides FileTabCharacter to detect tab characters specifically. Although it does not natively support checking for other disallowed whitespace characters, this rule is fully supported when combined with RegexpSinglelineJava to match additional characters such as form feed (\\f), vertical tab (\\v), and non-breaking space (U+00A0)."
+  }
+]

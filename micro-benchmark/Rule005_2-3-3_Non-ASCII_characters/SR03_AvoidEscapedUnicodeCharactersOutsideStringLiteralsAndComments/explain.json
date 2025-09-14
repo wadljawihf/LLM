@@ -1,0 +1,8 @@
+[
+  {
+    "sub_rule": "SR03_AvoidEscapedUnicodeCharactersOutsideStringLiteralsAndComments",
+    "related_configuration": "",
+    "support_level": "unsupported",
+    "explanation": "Checkstyle cannot detect escaped Unicode characters outside of string/char literals, as such escapes are resolved before parsing. Identifiers or keywords like '\\u0061' are seen as 'a' by Checkstyle and thus bypass the check."
+  }
+]

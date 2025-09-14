@@ -1,0 +1,8 @@
+[
+  {
+    "sub_rule": "SR05_NoArrowBreak",
+    "related_configuration": "",
+    "support_level": "unsupported",
+    "explanation": "Although the '->' arrow in lambda expressions is represented by the LAMBDA token, Checkstyle's OperatorWrap and SeparatorWrap modules do not support this token. Therefore, no-line-breaks adjacent to '->' cannot be enforced, making this rule unsupported."
+  }
+]

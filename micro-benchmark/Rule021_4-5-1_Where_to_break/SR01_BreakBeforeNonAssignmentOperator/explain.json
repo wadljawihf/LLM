@@ -1,0 +1,8 @@
+[
+  {
+    "sub_rule": "SR01_BreakBeforeNonAssignmentOperator",
+    "related_configuration": "<module name=\"TreeWalker\">\n        <module name=\"OperatorWrap\">\n            <property name=\"option\" value=\"NL\"/>\n            <property name=\"tokens\"\n                   value=\"BAND, BOR, BSR, BXOR, DIV, EQUAL, GE, GT, LAND, LE, LITERAL_INSTANCEOF, LOR,\n                        LT, MINUS, MOD, NOT_EQUAL, PLUS, QUESTION, SL, SR, STAR, METHOD_REF,\n                        TYPE_EXTENSION_AND\"/>\n        </module>\n        <module name=\"SeparatorWrap\">\n            <property name=\"id\" value=\"SeparatorWrapDot\"/>\n            <property name=\"tokens\" value=\"DOT\"/>\n            <property name=\"option\" value=\"nl\"/>\n        </module>\n    </module>",
+    "support_level": "supported",
+    "explanation": ""
+  }
+]

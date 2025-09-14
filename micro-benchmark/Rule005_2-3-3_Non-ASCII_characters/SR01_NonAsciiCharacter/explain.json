@@ -1,0 +1,8 @@
+[
+  {
+    "sub_rule": "SR01_NonAsciiCharacter",
+    "related_configuration": "<module name=\"TreeWalker\">\n        <module name=\"AvoidEscapedUnicodeCharacters\">\n            <property name=\"allowEscapesForControlCharacters\" value=\"true\"/>\n            <property name=\"allowByTailComment\" value=\"true\"/>\n            <property name=\"allowNonPrintableEscapes\" value=\"true\"/>\n        </module>\n    </module>",
+    "support_level": "supported",
+    "explanation": ""
+  }
+]

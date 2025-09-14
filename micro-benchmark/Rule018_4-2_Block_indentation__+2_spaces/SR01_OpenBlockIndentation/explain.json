@@ -1,0 +1,8 @@
+[
+  {
+    "sub_rule": "SR01_OpenBlockIndentation",
+    "related_configuration": "<module name=\"TreeWalker\">\n        <module name=\"Indentation\">\n            <property name=\"basicOffset\" value=\"2\"/>\n            <property name=\"braceAdjustment\" value=\"2\"/>\n            <property name=\"caseIndent\" value=\"2\"/>\n            <property name=\"throwsIndent\" value=\"4\"/>\n            <property name=\"lineWrappingIndentation\" value=\"4\"/>\n            <property name=\"arrayInitIndent\" value=\"2\"/>\n        </module>\n    </module>",
+    "support_level": "supported",
+    "explanation": ""
+  }
+]

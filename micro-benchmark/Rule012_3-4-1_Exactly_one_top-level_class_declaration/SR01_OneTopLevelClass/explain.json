@@ -1,0 +1,8 @@
+[
+  {
+    "sub_rule": "SR01_OneTopLevelClass",
+    "related_configuration": "<module name=\"TreeWalker\">\n        <module name=\"OneTopLevelClass\"/>\n    </module>",
+    "support_level": "under_supported",
+    "explanation": "The OneTopLevelClass check may fail to report violations when multiple public top-level classes are declared in the same file, resulting in missed detections."
+  }
+]

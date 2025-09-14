@@ -1,0 +1,3 @@
+@interface OneAnnotation {
+  String value();
+}

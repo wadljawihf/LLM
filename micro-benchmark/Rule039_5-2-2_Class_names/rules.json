@@ -1,0 +1,25 @@
+[
+  {
+    "rule": "5.2.2 Class names",
+    "sub_rules": [
+      {
+        "sub_rule": "SR01_ClassNaming",
+        "content": "Class names are written in UpperCamelCase.",
+        "relationship": "属性限定关系",
+        "formalization": "class.name must be constrained to be UpperCamelCase"
+      },
+      {
+        "sub_rule": "SR02_ClassNameNoun",
+        "content": "Class names are typically nouns or noun phrases.",
+        "relationship": "属性限定关系",
+        "formalization": "class.name must be constrained to be noun_or_noun_phrase"
+      },
+      {
+        "sub_rule": "SR03_TestClassNaming",
+        "content": "A test class has a name that ends with Test, for example, HashIntegrationTest. If it covers a single class, its name is the name of that class plus Test, for example HashImplTest.",
+        "relationship": "属性限定关系",
+        "formalization": "test_class.name_single_class must be constrained to be class.name + 'Test'"
+      }
+    ]
+  }
+]

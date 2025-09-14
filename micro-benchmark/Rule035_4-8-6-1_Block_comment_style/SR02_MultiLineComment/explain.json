@@ -1,0 +1,8 @@
+[
+  {
+    "sub_rule": "SR02_MultiLineComment",
+    "related_configuration": "",
+    "support_level": "unsupported",
+    "explanation": "There is no Check about the form of block comments"
+  }
+]

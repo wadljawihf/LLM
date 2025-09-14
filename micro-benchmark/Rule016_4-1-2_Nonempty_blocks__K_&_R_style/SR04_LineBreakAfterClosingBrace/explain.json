@@ -1,0 +1,8 @@
+[
+  {
+    "sub_rule": "SR04_LineBreakAfterClosingBrace",
+    "related_configuration": "<module name=\"TreeWalker\">\n        <module name=\"RightCurly\">\n            <property name=\"id\" value=\"RightCurlySame\"/>\n            <property name=\"tokens\"\n                   value=\"LITERAL_TRY, LITERAL_CATCH, LITERAL_IF, LITERAL_ELSE,\n                        LITERAL_DO\"/>\n        </module>\n        <module name=\"RightCurly\">\n            <property name=\"id\" value=\"RightCurlyAlone\"/>\n            <property name=\"option\" value=\"alone\"/>\n            <property name=\"tokens\"\n                   value=\"CLASS_DEF, METHOD_DEF, CTOR_DEF, LITERAL_FOR, LITERAL_WHILE, STATIC_INIT,\n                        INSTANCE_INIT, ANNOTATION_DEF, ENUM_DEF, INTERFACE_DEF, RECORD_DEF,\n                        COMPACT_CTOR_DEF, LITERAL_SWITCH, LITERAL_CASE, LITERAL_FINALLY\"/>\n        </module>\n        <module name=\"SuppressionXpathSingleFilter\">\n            <!-- suppression is required till https://github.com/checkstyle/checkstyle/issues/7541 -->\n            <property name=\"id\" value=\"RightCurlyAlone\"/>\n            <property name=\"query\" value=\"//RCURLY[parent::SLIST[count(./*)=1]\n                                         or preceding-sibling::*[last()][self::LCURLY]]\"/>\n        </module>\n    </module>",
+    "support_level": "supported",
+    "explanation": ""
+  }
+]

@@ -1,0 +1,8 @@
+[
+  {
+    "sub_rule": "SR01_NoWildcardImport",
+    "related_configuration": "<module name=\"TreeWalker\">\n        <module name=\"AvoidStarImport\"/>\n    </module>",
+    "support_level": "supported",
+    "explanation": ""
+  }
+]

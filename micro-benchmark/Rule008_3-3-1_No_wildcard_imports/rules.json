@@ -1,0 +1,13 @@
+[
+  {
+    "rule": "3.3.1 No wildcard imports",
+    "sub_rules": [
+      {
+        "sub_rule": "SR01_NoWildcardImport",
+        "content": "Wildcard imports, static or otherwise, are not used.",
+        "relationship": "包含关系",
+        "formalization": "import_statement must not contain wildcard"
+      }
+    ]
+  }
+]

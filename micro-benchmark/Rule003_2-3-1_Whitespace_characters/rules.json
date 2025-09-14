@@ -1,0 +1,13 @@
+[
+  {
+    "rule": "2.3.1 Whitespace characters",
+    "sub_rules": [
+      {
+        "sub_rule": "SR01_Only0x20",
+        "content": "Aside from the line terminator sequence, the ASCII horizontal space character (0x20) is the only whitespace character that appears anywhere in a source file. This implies that:\n\nAll other whitespace characters in string and character literals are escaped.\nTab characters are not used for indentation.",
+        "relationship": "属性限定关系",
+        "formalization": "(whitespace\\line_terminator_sequence) must be constrained to be 0x20\""
+      }
+    ]
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "rule": "4.8.3.2 No C-style array declarations",
+    "sub_rules": [
+      {
+        "sub_rule": "SR01_NoCStyle",
+        "content": "The square brackets form a part of the type, not the variable: String[] args, not String args[].",
+        "relationship": "顺序关系",
+        "formalization": "(type.array_bracket, variable_name) must be arranged in the given order"
+      }
+    ]
+  }
+]

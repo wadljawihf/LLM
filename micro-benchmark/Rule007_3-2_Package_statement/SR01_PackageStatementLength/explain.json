@@ -1,0 +1,8 @@
+[
+  {
+    "sub_rule": "SR01_PackageStatementLength",
+    "related_configuration": "<module name=\"LineLength\">\n        <property name=\"fileExtensions\" value=\"java\"/>\n        <property name=\"max\" value=\"100\"/>\n        <property name=\"ignorePattern\" value=\"^package.*\"/>\n    </module>",
+    "support_level": "supported",
+    "explanation": ""
+  }
+]

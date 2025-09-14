@@ -1,0 +1,8 @@
+[
+  {
+    "sub_rule": "SR02_ImportsOrder",
+    "related_configuration": "<module name=\"TreeWalker\">\n        <module name=\"CustomImportOrder\">\n            <property name=\"sortImportsInGroupAlphabetically\" value=\"true\"/>\n            <property name=\"customImportOrderRules\" value=\"STATIC, THIRD_PARTY_PACKAGE\"/>\n        </module>\n    </module>",
+    "support_level": "under_supported",
+    "explanation": "Checkstyle reports violations in import group placement first. If an import is placed in the wrong group, it will skip checking the alphabetical order within that group. As a result, incorrect intra-group ordering may go unreported when inter-group misplacement exists."
+  }
+]

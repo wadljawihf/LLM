@@ -1,0 +1,8 @@
+[
+  {
+    "sub_rule": "SR03_VerbOrNounPhrase",
+    "related_configuration": "<module name=\"TreeWalker\">\n        <module name=\"AtclauseOrder\">\n            <property name=\"tagOrder\" value=\"@param, @return, @throws, @deprecated\"/>\n            <property name=\"target\"\n                   value=\"CLASS_DEF, INTERFACE_DEF, ENUM_DEF, METHOD_DEF, CTOR_DEF, VARIABLE_DEF\"/>\n        </module>\n    </module>",
+    "support_level": "under_supported",
+    "explanation": "There is no check to determine whether the fragment is a verb or a noun phrase. However, partial enforcement can be achieved by applying regular expression patterns."
+  }
+]

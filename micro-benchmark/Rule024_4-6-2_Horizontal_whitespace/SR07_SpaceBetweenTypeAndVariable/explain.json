@@ -1,0 +1,8 @@
+[
+  {
+    "sub_rule": "SR07_SpaceBetweenTypeAndVariable",
+    "related_configuration": "<module name=\"TreeWalker\">\n        <module name=\"GenericWhitespace\">\n            <message key=\"ws.followed\"\n                 value=\"GenericWhitespace ''{0}'' is followed by whitespace.\"/>\n            <message key=\"ws.preceded\"\n                 value=\"GenericWhitespace ''{0}'' is preceded with whitespace.\"/>\n            <message key=\"ws.illegalFollow\"\n                 value=\"GenericWhitespace ''{0}'' should followed by whitespace.\"/>\n            <message key=\"ws.notPreceded\"\n                 value=\"GenericWhitespace ''{0}'' is not preceded with whitespace.\"/>\n        </module>\n    </module>",
+    "support_level": "",
+    "explanation": ""
+  }
+]

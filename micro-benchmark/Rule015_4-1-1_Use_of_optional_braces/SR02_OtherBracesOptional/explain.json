@@ -1,0 +1,8 @@
+[
+  {
+    "sub_rule": "SR02_OtherBracesOptional",
+    "related_configuration": "<module name=\"TreeWalker\">\n        <module name=\"NeedBraces\">\n            <property name=\"tokens\" value=\"LITERAL_DO, LITERAL_ELSE, LITERAL_FOR, LITERAL_IF, LITERAL_WHILE\"/>\n        </module>\n    </module>",
+    "support_level": "supported",
+    "explanation": "The NeedBraces check supports all common control structures without side effects. It also provides optional tokens for switch cases, default labels, and lambda expressions, allowing optional brace enforcement to be fully supported."
+  }
+]

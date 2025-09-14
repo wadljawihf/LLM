@@ -1,0 +1,8 @@
+[
+  {
+    "sub_rule": "SR01_NoLowerL",
+    "related_configuration": "<module name=\"TreeWalker\">\n        <module name=\"UpperEll\"/>\n    </module>",
+    "support_level": "supported",
+    "explanation": ""
+  }
+]

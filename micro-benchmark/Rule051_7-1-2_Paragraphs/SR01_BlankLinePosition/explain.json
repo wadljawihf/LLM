@@ -1,0 +1,8 @@
+[
+  {
+    "sub_rule": "SR01_BlankLinePosition",
+    "related_configuration": "<module name=\"TreeWalker\">\n        <module name=\"JavadocParagraph\">\n            <property name=\"allowNewlineParagraph\" value=\"false\"/>\n        </module>\n        <module name=\"RequireEmptyLineBeforeBlockTagGroup\"/>\n    </module>",
+    "support_level": "supported",
+    "explanation": ""
+  }
+]

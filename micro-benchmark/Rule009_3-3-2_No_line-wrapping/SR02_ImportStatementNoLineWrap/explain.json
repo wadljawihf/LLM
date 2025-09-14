@@ -1,0 +1,8 @@
+[
+  {
+    "sub_rule": "SR02_ImportStatementNoLineWrap",
+    "related_configuration": "<module name=\"TreeWalker\">\n        <module name=\"NoLineWrap\">\n            <property name=\"tokens\" value=\"IMPORT, STATIC_IMPORT\"/>\n        </module>\n    </module>",
+    "support_level": "supported",
+    "explanation": ""
+  }
+]

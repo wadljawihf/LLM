@@ -1,0 +1,8 @@
+[
+  {
+    "sub_rule": "SR01_NoEmptyCaught",
+    "related_configuration": "<module name=\"TreeWalker\">\n        <module name=\"EmptyCatchBlock\">\n            <property name=\"exceptionVariableName\" value=\"expected\"/>\n        </module>\n    </module>",
+    "support_level": "supported",
+    "explanation": ""
+  }
+]

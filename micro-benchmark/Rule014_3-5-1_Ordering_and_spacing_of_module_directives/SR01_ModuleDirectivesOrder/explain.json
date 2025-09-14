@@ -1,0 +1,8 @@
+[
+  {
+    "sub_rule": "SR01_ModuleDirectivesOrder",
+    "related_configuration": "",
+    "support_level": "unsupported",
+    "explanation": "Checkstyle does not build an AST for module-info.java files, so it cannot analyze or enforce the order of module directives."
+  }
+]

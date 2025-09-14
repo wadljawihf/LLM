@@ -1,0 +1,8 @@
+[
+  {
+    "sub_rule": "SR03_LineBreakInBlockTag",
+    "related_configuration": "<module name=\"TreeWalker\">\n        <module name=\"JavadocTagContinuationIndentation\"/>\n    </module>",
+    "support_level": "supported",
+    "explanation": ""
+  }
+]

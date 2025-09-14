@@ -1,0 +1,8 @@
+[
+  {
+    "sub_rule": "SR01_OneVariablePerDeclaration",
+    "related_configuration": "<module name=\"TreeWalker\">\n        <module name=\"MultipleVariableDeclarations\"/>\n    </module>",
+    "support_level": "supported",
+    "explanation": "The MultipleVariableDeclarations check enforces that each variable must be declared in its own statement. Although it does not expose configuration options to control exceptions, it automatically ignores multiple variable declarations in the header of a for loop, which aligns with the rule’s exception."
+  }
+]

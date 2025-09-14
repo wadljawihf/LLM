@@ -1,0 +1,8 @@
+[
+  {
+    "sub_rule": "SR10_SpaceAtTheStartOrEnd",
+    "related_configuration": "",
+    "support_level": "supported",
+    "explanation": "optional rule"
+  }
+]

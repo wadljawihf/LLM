@@ -1,0 +1,8 @@
+[
+  {
+    "sub_rule": "SR01_TypeVariableNaming",
+    "related_configuration": "<module name=\"TreeWalker\">\n        <module name=\"ClassTypeParameterName\">\n            <property name=\"format\" value=\"(^[A-Z][0-9]?)$|([A-Z][a-zA-Z0-9]*[T]$)\"/>\n            <message key=\"name.invalidPattern\"\n                 value=\"Class type name ''{0}'' must match pattern ''{1}''.\"/>\n        </module>\n        <module name=\"RecordComponentName\">\n            <property name=\"format\" value=\"^[a-z]([a-z0-9][a-zA-Z0-9]*)?$\"/>\n            <message key=\"name.invalidPattern\"\n                   value=\"Record component name ''{0}'' must match pattern ''{1}''.\"/>\n        </module>\n        <module name=\"RecordTypeParameterName\">\n            <property name=\"format\" value=\"(^[A-Z][0-9]?)$|([A-Z][a-zA-Z0-9]*[T]$)\"/>\n            <message key=\"name.invalidPattern\"\n                   value=\"Record type name ''{0}'' must match pattern ''{1}''.\"/>\n        </module>\n        <module name=\"MethodTypeParameterName\">\n            <property name=\"format\" value=\"(^[A-Z][0-9]?)$|([A-Z][a-zA-Z0-9]*[T]$)\"/>\n            <message key=\"name.invalidPattern\"\n                 value=\"Method type name ''{0}'' must match pattern ''{1}''.\"/>\n        </module>\n        <module name=\"InterfaceTypeParameterName\">\n            <property name=\"format\" value=\"(^[A-Z][0-9]?)$|([A-Z][a-zA-Z0-9]*[T]$)\"/>\n            <message key=\"name.invalidPattern\"\n                 value=\"Interface type name ''{0}'' must match pattern ''{1}''.\"/>\n        </module>\n    </module>",
+    "support_level": "supported",
+    "explanation": ""
+  }
+]

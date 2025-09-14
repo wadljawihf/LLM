@@ -1,0 +1,8 @@
+[
+  {
+    "sub_rule": "SR02_ModierOrderOnRequires",
+    "related_configuration": "",
+    "support_level": "unsupported",
+    "explanation": "Checkstyle does not build an AST for module-info.java files, so it cannot check the order of module requires directives."
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "rule": "4.8.5.4 Field annotations",
+    "sub_rules": [
+      {
+        "sub_rule": "SR01_FieldAnnotationPlace",
+        "content": "Annotations applying to a field also appear immediately after the documentation block",
+        "relationship": "顺序关系",
+        "formalization": "documentation_block,field.annotations must be arranged in the given order"
+      },
+      {
+        "sub_rule": "SR02_FieldAnnotationNum",
+        "content": "but in this case, multiple annotations (possibly parameterized) may be listed on the same line; for example:\n\n@Partial @Mock DataLoader loader;",
+        "relationship": "数量限定关系",
+        "formalization": "the quantity of line .annotation could be greater than 1"
+      }
+    ]
+  }
+]

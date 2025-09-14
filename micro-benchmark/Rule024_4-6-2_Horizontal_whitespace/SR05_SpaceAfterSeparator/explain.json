@@ -1,0 +1,8 @@
+[
+  {
+    "sub_rule": "SR05_SpaceAfterSeparator",
+    "related_configuration": "<module name=\"TreeWalker\">\n        <module name=\"WhitespaceAfter\">\n            <property name=\"tokens\"\n                   value=\"COMMA, SEMI, TYPECAST\"/>\n        </module>\n    </module>",
+    "support_level": "under_supported",
+    "explanation": "COLON token is not used in WhitespaceAfter"
+  }
+]

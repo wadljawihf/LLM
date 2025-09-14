@@ -1,0 +1,13 @@
+[
+  {
+    "rule": "5.2.8 Type variable names",
+    "sub_rules": [
+      {
+        "sub_rule": "SR01_TypeVariableNaming",
+        "content": "Each type variable is named in one of two styles:\n\nA single capital letter, optionally followed by a single numeral (such as E, T, X, T2)\nA name in the form used for classes (see Section 5.2.2, Class names), followed by the capital letter T (examples: RequestT, FooBarT).",
+        "relationship": "属性限定关系",
+        "formalization": "type_variable.name must be constrained to be ( A single capital letter, optionally followed by a single numeral ∨ A name in the form used for classes (see Section 5.2.2, Class names), followed by the capital letter T)"
+      }
+    ]
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "rule": "4.8.7 Modifiers",
+    "sub_rules": [
+      {
+        "sub_rule": "SR01_ModierOrder",
+        "content": "Class and member modifiers, when present, appear in the order recommended by the Java Language Specification:\n\npublic protected private abstract default static final sealed non-sealed\ntransient volatile synchronized native strictfp",
+        "relationship": "顺序关系",
+        "formalization": "(class.modifier ∨ member.modifier) must be arranged in the order: public, protected, private, abstract, default, static, final, transient, volatile, synchronized, native, strictfp"
+      },
+      {
+        "sub_rule": "SR02_ModierOrderOnRequires",
+        "content": "Modifiers on requires module directives, when present, appear in the following order:\n\ntransitive static",
+        "relationship": "顺序关系",
+        "formalization": "requires.modifier must be arranged in the order: transitive static"
+      }
+    ]
+  }
+]

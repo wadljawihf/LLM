@@ -1,0 +1,8 @@
+[
+  {
+    "sub_rule": "SR02_AvoidSingleCharParameter",
+    "related_configuration": "<module name=\"TreeWalker\">\n        <module name=\"ParameterName\">\n            <property name=\"format\" value=\"^[a-z][a-z0-9][a-zA-Z0-9]*$\"/>\n            <property name=\"accessModifiers\" value=\"public\"/>\n            <message key=\"name.invalidPattern\"\n            value=\"Parameter name ''{0}'' must match pattern ''{1}''\"/>\n        </module>\n    </module>",
+    "support_level": "supported",
+    "explanation": ""
+  }
+]

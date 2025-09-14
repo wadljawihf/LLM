@@ -1,0 +1,8 @@
+[
+  {
+    "sub_rule": "SR01_FileConponentOrder",
+    "related_configuration": "",
+    "support_level": "under_supported",
+    "explanation": "Checkstyle can only verify that license headers appear at the very top of a file. It does not support enforcing the specific order of other top-level components such as package, import, or class declarations. As a result, enforcing strict file component ordering is not reliably supported."
+  }
+]

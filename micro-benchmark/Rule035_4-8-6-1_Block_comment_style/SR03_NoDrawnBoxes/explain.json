@@ -1,0 +1,8 @@
+[
+  {
+    "sub_rule": "SR03_NoDrawnBoxes",
+    "related_configuration": "",
+    "support_level": "unsupported",
+    "explanation": "There is no Check about the form of block comments"
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "rule": "2.1 File name",
+    "sub_rules": [
+      {
+        "sub_rule": "SR01_FileNameMatchesClassName",
+        "content": "The source file name consists of the case-sensitive name of the top-level class it contains (of which there is exactly one), plus the .java extension.",
+        "relationship": "数量限定关系=>包含关系",
+        "formalization": "the quantity of top_level_class must be equal to 1 => source_file.name must contain top_level_class.name + .java"
+      }
+    ]
+  }
+]

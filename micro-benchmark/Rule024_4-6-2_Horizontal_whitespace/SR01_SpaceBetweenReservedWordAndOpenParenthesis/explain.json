@@ -1,0 +1,8 @@
+[
+  {
+    "sub_rule": "SR01_SpaceBetweenReservedWordAndOpenParenthesis",
+    "related_configuration": "<module name=\"WhitespaceAfter\">\n            <property name=\"tokens\"\n                   value=\"LITERAL_IF, LITERAL_ELSE, LITERAL_RETURN,\n                        LITERAL_WHILE, LITERAL_DO, LITERAL_FOR, LITERAL_FINALLY, DO_WHILE,\n                        LITERAL_SWITCH, LITERAL_SYNCHRONIZED, LITERAL_TRY, LITERAL_CATCH,\n                        LITERAL_YIELD, LITERAL_CASE, LITERAL_WHEN\"/>\n        </module>",
+    "support_level": "under_supported",
+    "explanation": "The WhitespaceAfter check only verifies the presence of at least one space after reserved keywords like 'if', 'for', or 'while'. It does not validate the exact number of spaces, so multiple spaces are not flagged, making this rule only partially supported."
+  }
+]

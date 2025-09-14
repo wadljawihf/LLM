@@ -1,0 +1,13 @@
+[
+  {
+    "rule": "7.1.1 General form",
+    "sub_rules": [
+      {
+        "sub_rule": "SR01_JavadocForm",
+        "content": "The basic formatting of Javadoc blocks is as seen in this example:\n\n/**\n* Multiple lines of Javadoc text are written here,\n* wrapped normally...\n*/\npublic int method(String p1) { ... }\n... or in this single-line example:\n\n/** An especially short bit of Javadoc. */\nThe basic form is always acceptable. The single-line form may be substituted when the entirety of the Javadoc block (including comment markers) can fit on a single line. Note that this only applies when there are no block tags such as @param.",
+        "relationship": "包含关系 ∧ 伴随关系",
+        "formalization": "JavadocBlock must be contained in /** */ ∧ before multi-line-javadoc.line must be one star character(*)"
+      }
+    ]
+  }
+]

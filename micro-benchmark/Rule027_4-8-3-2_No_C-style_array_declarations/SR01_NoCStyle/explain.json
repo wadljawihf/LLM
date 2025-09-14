@@ -1,0 +1,8 @@
+[
+  {
+    "sub_rule": "SR01_NoCStyle",
+    "related_configuration": "<module name=\"TreeWalker\">\n        <module name=\"ArrayTypeStyle\"/>\n    </module>",
+    "support_level": "supported",
+    "explanation": ""
+  }
+]

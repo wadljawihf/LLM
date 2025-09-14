@@ -1,0 +1,8 @@
+[
+  {
+    "sub_rule": "SR01_ConstantNaming",
+    "related_configuration": "<module name=\"TreeWalker\">\n        <module name=\"ConstantName\"/>\n    </module>",
+    "support_level": "unsupported",
+    "explanation": "Every constant is a static final field, but not all static final fields are constants - impossible to check such rule."
+  }
+]

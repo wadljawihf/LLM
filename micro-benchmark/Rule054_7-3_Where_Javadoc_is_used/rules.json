@@ -1,0 +1,35 @@
+[
+  {
+    "rule": "7.3 Where Javadoc is used",
+    "sub_rules": [
+      {
+        "sub_rule": "SR01_JavadocPosition",
+        "content": "At the minimum, Javadoc is present for every visible class, member, or record component, with a few exceptions noted below. A top-level class is visible if it is public; a member is visible if it is public or protected and its containing class is visible; and a record component is visible if its containing record is visible.\n\nAdditional Javadoc content may also be present, as explained in Section 7.3.4, Non-required Javadoc.",
+        "relationship": "前伴随关系",
+        "formalization": "before ( visible class∨ visible member ∨ visible record component) must be Javadoc"
+      }
+    ]
+  },
+  {
+    "rule": "7.3.1 Exception: self-explanatory members",
+    "sub_rules": [
+      {
+        "sub_rule": "SR01_OmitJavadocWhenSelfExplanatory",
+        "content": "",
+        "relationship": "伴随关系",
+        "formalization": "before \"simple, obvious\" members could not be Javadoc"
+      }
+    ]
+  },
+  {
+    "rule": "7.3.2 Exception: overrides",
+    "sub_rules": [
+      {
+        "sub_rule": "SR01_OmitJavadocWhenOverride",
+        "content": "",
+        "relationship": "伴随关系",
+        "formalization": "before override method could not be Javadoc"
+      }
+    ]
+  }
+]

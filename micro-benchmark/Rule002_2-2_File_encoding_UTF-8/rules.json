@@ -1,0 +1,13 @@
+[
+  {
+    "rule": "2.2 File encoding: UTF-8",
+    "sub_rules": [
+      {
+        "sub_rule": "SR01_UTF8",
+        "content": "Source files are encoded in UTF-8.",
+        "relationship": "属性限定关系",
+        "formalization": "source_file.coding must be constrained to be UTF-8"
+      }
+    ]
+  }
+]

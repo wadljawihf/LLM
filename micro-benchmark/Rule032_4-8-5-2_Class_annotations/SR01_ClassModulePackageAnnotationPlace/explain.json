@@ -1,0 +1,8 @@
+[
+  {
+    "sub_rule": "SR01_ClassModulePackageAnnotationPlace",
+    "related_configuration": "<module name=\"TreeWalker\">\n        <module name=\"AnnotationLocation\">\n          <property name=\"id\" value=\"ClassAnnotationLocation\"/>\n          <property name=\"tokens\"\n                   value=\"CLASS_DEF, INTERFACE_DEF, ENUM_DEF, RECORD_DEF\"/>\n        </module>\n    </module>",
+    "support_level": "unsupported",
+    "explanation": "AnnotationLocation can not check the location of class annotations"
+  }
+]

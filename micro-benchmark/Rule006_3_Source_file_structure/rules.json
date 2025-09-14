@@ -1,0 +1,19 @@
+[
+  {
+    "rule": "3 Source file structure",
+    "sub_rules": [
+      {
+        "sub_rule": "SR01_FileConponentOrder",
+        "content": "A source file consists of, in order:\n1.License or copyright information, if present\n2.Package statement\n3.Import statements\n4.Exactly one top-level class",
+        "relationship": "顺序关系",
+        "formalization": "(license_information ∨ copyright_information), package_statement, import_statements, top_level_class must be arranged in the given order"
+      },
+      {
+        "sub_rule": "SR02_OneBlankLineSeparating",
+        "content": "Exactly one blank line separates each section that is present.",
+        "relationship": "数量限定关系 ∧ 间隔限定关系",
+        "formalization": "there must be blank_line betweenSource file structures ∧ the quantity of blank_line must be equal to 1"
+      }
+    ]
+  }
+]

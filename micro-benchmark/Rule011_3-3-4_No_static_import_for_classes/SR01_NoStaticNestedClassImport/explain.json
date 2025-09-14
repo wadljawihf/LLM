@@ -1,0 +1,8 @@
+[
+  {
+    "sub_rule": "SR01_NoStaticNestedClassImport",
+    "related_configuration": "",
+    "support_level": "unsupported",
+    "explanation": "The AvoidStaticImport check can only ban all static imports, but it cannot selectively detect static imports of nested classes. As a result, it cannot enforce the rule that specifically prohibits static imports of static nested classes."
+  }
+]

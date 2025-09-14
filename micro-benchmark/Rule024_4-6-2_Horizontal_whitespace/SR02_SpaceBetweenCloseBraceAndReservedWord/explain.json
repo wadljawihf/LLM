@@ -1,0 +1,8 @@
+[
+  {
+    "sub_rule": "SR02_SpaceBetweenCloseBraceAndReservedWord",
+    "related_configuration": "<module name=\"TreeWalker\">\n        <module name=\"WhitespaceAround\">\n            <property name=\"allowEmptyConstructors\" value=\"true\"/>\n            <property name=\"allowEmptyLambdas\" value=\"true\"/>\n            <property name=\"allowEmptyMethods\" value=\"true\"/>\n            <property name=\"allowEmptyTypes\" value=\"true\"/>\n            <property name=\"allowEmptyLoops\" value=\"true\"/>\n            <property name=\"allowEmptySwitchBlockStatements\" value=\"true\"/>\n            <property name=\"ignoreEnhancedForColon\" value=\"false\"/>\n            <property name=\"tokens\"\n                   value=\"LITERAL_CATCH, LITERAL_ELSE, LITERAL_FINALLY, LITERAL_WHILE\"/>\n        </module>\n    </module>",
+    "support_level": "under_supported",
+    "explanation": "The WhitespaceAround check only verifies the presence of some whitespace between a closing brace and a reserved word, such as 'else' or 'catch', but it does not enforce that it must be exactly one ASCII space. If a tab or multiple spaces are used, they are treated as valid, making the check incomplete."
+  }
+]

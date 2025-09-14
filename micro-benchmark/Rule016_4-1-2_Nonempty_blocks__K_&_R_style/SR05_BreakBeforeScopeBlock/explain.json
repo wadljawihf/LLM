@@ -1,0 +1,8 @@
+[
+  {
+    "sub_rule": "SR05_BreakBeforeScopeBlock",
+    "related_configuration": "",
+    "support_level": "unsupported",
+    "explanation": "Checkstyle's LeftCurly check does not support tokens that match instance initializer blocks like '{ int temp = 111; }'. As a result, it cannot enforce line break rules before such scope blocks."
+  }
+]

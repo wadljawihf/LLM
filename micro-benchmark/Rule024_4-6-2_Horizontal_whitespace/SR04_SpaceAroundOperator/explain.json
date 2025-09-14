@@ -1,0 +1,8 @@
+[
+  {
+    "sub_rule": "SR04_SpaceAroundOperator",
+    "related_configuration": "<module name=\"TreeWalker\">\n        <module name=\"WhitespaceAround\">\n            <property name=\"allowEmptyConstructors\" value=\"true\"/>\n            <property name=\"allowEmptyLambdas\" value=\"true\"/>\n            <property name=\"allowEmptyMethods\" value=\"true\"/>\n            <property name=\"allowEmptyTypes\" value=\"true\"/>\n            <property name=\"allowEmptyLoops\" value=\"true\"/>\n            <property name=\"allowEmptySwitchBlockStatements\" value=\"true\"/>\n            <property name=\"ignoreEnhancedForColon\" value=\"false\"/>\n            <property name=\"tokens\"\n               value=\"ASSIGN, BAND, BAND_ASSIGN, BOR, BOR_ASSIGN, BSR, BSR_ASSIGN, BXOR,\n                    BXOR_ASSIGN, COLON, DIV, DIV_ASSIGN, DO_WHILE, EQUAL, GE, GT, LAMBDA, LAND,\n                    LE, LOR, LT, MINUS, MINUS_ASSIGN, MOD, MOD_ASSIGN,\n                    NOT_EQUAL, PLUS, PLUS_ASSIGN, QUESTION, SL, SL_ASSIGN, SR,\n                    SR_ASSIGN, STAR, STAR_ASSIGN,\n                    TYPE_EXTENSION_AND\"/>\n        </module>\n        <module name=\"NoWhitespaceBefore\">\n            <property name=\"tokens\"\n                   value=\"DOT,METHOD_REF\"/>\n        </module>\n        <module name=\"NoWhitespaceAfter\">\n            <property name=\"tokens\"\n                   value=\"DOT,METHOD_REF\"/>\n        </module>\n    </module>",
+    "support_level": "",
+    "explanation": ""
+  }
+]

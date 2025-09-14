@@ -1,0 +1,13 @@
+[
+  {
+    "rule": "4.8.2.1 One variable per declaration",
+    "sub_rules": [
+      {
+        "sub_rule": "SR01_OneVariablePerDeclaration",
+        "content": "Every variable declaration (field or local) declares only one variable: declarations such as int a, b; are not used.\n\nException: Multiple variable declarations are acceptable in the header of a for loop.",
+        "relationship": "数量限定关系",
+        "formalization": "the quantity of (variable_declaration\\for_loop.header).variable must be equal to 1"
+      }
+    ]
+  }
+]

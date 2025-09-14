@@ -1,0 +1,8 @@
+[
+  {
+    "sub_rule": "SR03_NoIndentationWhenBreak",
+    "related_configuration": "<module name=\"TreeWalker\">\n        <module name=\"AnnotationLocation\">\n          <property name=\"id\" value=\"ClassAnnotationLocation\"/>\n          <property name=\"tokens\" value=\"CLASS_DEF, INTERFACE_DEF, ENUM_DEF, RECORD_DEF\"/>\n            <property name=\"allowSamelineSingleParameterlessAnnotation\" value=\"false\"/>\n        </module>\n    </module>",
+    "support_level": "supported",
+    "explanation": ""
+  }
+]

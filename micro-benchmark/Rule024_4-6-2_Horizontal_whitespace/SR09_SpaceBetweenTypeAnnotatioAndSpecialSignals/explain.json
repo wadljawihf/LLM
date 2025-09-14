@@ -1,0 +1,8 @@
+[
+  {
+    "sub_rule": "SR09_SpaceBetweenTypeAnnotatioAndSpecialSignals",
+    "related_configuration": "",
+    "support_level": "unsupported",
+    "explanation": "There is no Check about a type annotation"
+  }
+]

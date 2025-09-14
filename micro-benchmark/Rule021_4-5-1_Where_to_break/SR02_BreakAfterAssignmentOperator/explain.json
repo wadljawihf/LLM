@@ -1,0 +1,8 @@
+[
+  {
+    "sub_rule": "SR02_BreakAfterAssignmentOperator",
+    "related_configuration": "",
+    "support_level": "supported",
+    "explanation": "This rule is not mandatory. When a line is broken at an assignment operator, the break typically comes after the symbol, but either approach is acceptable. Thus, Checkstyle supports flexibility in this case."
+  }
+]

@@ -1,0 +1,8 @@
+[
+  {
+    "sub_rule": "SR02_OptionalEmptyLine",
+    "related_configuration": "<module name=\"TreeWalker\">\n        <module name=\"EmptyLineSeparator\">\n            <property name=\"tokens\"\n                   value=\"CLASS_DEF, INTERFACE_DEF, ENUM_DEF,\n                        STATIC_INIT, INSTANCE_INIT, METHOD_DEF, CTOR_DEF, VARIABLE_DEF, RECORD_DEF,\n                        COMPACT_CTOR_DEF\"/>\n            <property name=\"allowNoEmptyLineBetweenFields\" value=\"true\"/>\n        </module>\n    </module>",
+    "support_level": "supported",
+    "explanation": ""
+  }
+]

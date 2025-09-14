@@ -1,0 +1,8 @@
+[
+  {
+    "sub_rule": "SR02_LineBreakAfterOpeningBrace",
+    "related_configuration": "<module name=\"TreeWalker\">\n        <module name=\"LeftCurly\">\n              <property name=\"id\" value=\"LeftCurlyEol\"/>\n              <property name=\"tokens\"\n                        value=\"ANNOTATION_DEF, CLASS_DEF, CTOR_DEF, ENUM_CONSTANT_DEF, ENUM_DEF,\n                            INTERFACE_DEF, LAMBDA, LITERAL_CATCH,\n                            LITERAL_DO, LITERAL_ELSE, LITERAL_FINALLY, LITERAL_FOR, LITERAL_IF,\n                            LITERAL_SWITCH, LITERAL_SYNCHRONIZED, LITERAL_TRY, LITERAL_WHILE, METHOD_DEF,\n                            OBJBLOCK, STATIC_INIT, RECORD_DEF, COMPACT_CTOR_DEF\"/>\n        </module>\n    </module>",
+    "support_level": "under_supported",
+    "explanation": "The LeftCurly check does not detect opening brace line breaks for instance initializers (non-static blocks), so patterns like '{ int x = 1; }' outside methods are not reported. As a result, enforcement is incomplete."
+  }
+]

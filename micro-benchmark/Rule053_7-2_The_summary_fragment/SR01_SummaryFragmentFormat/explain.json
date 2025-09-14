@@ -1,0 +1,8 @@
+[
+  {
+    "sub_rule": "SR01_SummaryFragmentFormat",
+    "related_configuration": "<module name=\"TreeWalker\">\n        <module name=\"SummaryJavadoc\">\n            <property name=\"forbiddenSummaryFragments\"\n                   value=\"^@return the *|^This method returns |^A [{]@code [a-zA-Z0-9]+[}]( is a )\"/>\n        </module>\n    </module>",
+    "support_level": "supported",
+    "explanation": ""
+  }
+]

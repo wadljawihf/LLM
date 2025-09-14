@@ -1,0 +1,13 @@
+[
+  {
+    "rule": "5.2.7 Local variable names",
+    "sub_rules": [
+      {
+        "sub_rule": "SR01_LocalVariableNaming",
+        "content": "Local variable names are written in lowerCamelCase.",
+        "relationship": "属性限定关系",
+        "formalization": "local_variable.name must be constrained to be lowerCamelCase"
+      }
+    ]
+  }
+]

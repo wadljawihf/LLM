@@ -1,0 +1,8 @@
+[
+  {
+    "sub_rule": "SR03_NameAttachToParenthesis",
+    "related_configuration": "<module name=\"TreeWalker\">\n        <module name=\"MethodParamPad\">\n            <property name=\"tokens\"\n                   value=\"CTOR_DEF, LITERAL_NEW, METHOD_CALL, METHOD_DEF, CTOR_CALL,\n                        SUPER_CTOR_CALL, ENUM_CONSTANT_DEF, RECORD_DEF, RECORD_PATTERN_DEF\"/>\n        </module>\n    </module>",
+    "support_level": "supported",
+    "explanation": ""
+  }
+]

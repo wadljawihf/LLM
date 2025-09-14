@@ -1,0 +1,8 @@
+[
+  {
+    "sub_rule": "SR01_WrappingIndentation",
+    "related_configuration": "<module name=\"TreeWalker\">\n        <module name=\"Indentation\">\n            <property name=\"basicOffset\" value=\"2\"/>\n            <property name=\"braceAdjustment\" value=\"2\"/>\n            <property name=\"caseIndent\" value=\"2\"/>\n            <property name=\"throwsIndent\" value=\"4\"/>\n            <property name=\"lineWrappingIndentation\" value=\"4\"/>\n            <property name=\"arrayInitIndent\" value=\"2\"/>\n        </module>\n    </module>",
+    "support_level": "under_supported",
+    "explanation": "Checkstyle's Indentation check provides general control over line-wrapping indentation via the 'lineWrappingIndentation' property. However, it fails to detect or enforce wrapping indentation in certain language constructs, such as lambda expressions used as return values. For example, wrapping after 'return' followed by a lambda is not reliably validated, making this rule only partially supported."
+  }
+]

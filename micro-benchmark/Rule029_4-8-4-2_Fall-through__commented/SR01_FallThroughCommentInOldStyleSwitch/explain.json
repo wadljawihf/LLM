@@ -1,0 +1,8 @@
+[
+  {
+    "sub_rule": "SR01_FallThroughCommentInOldStyleSwitch",
+    "related_configuration": "<module name=\"TreeWalker\">\n        <module name=\"FallThrough\"/>\n    </module>",
+    "support_level": "supported",
+    "explanation": ""
+  }
+]

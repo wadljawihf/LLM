@@ -1,0 +1,8 @@
+[
+  {
+    "sub_rule": "SR01_ImportsSeparating",
+    "related_configuration": "<module name=\"TreeWalker\">\n        <module name=\"CustomImportOrder\">\n            <property name=\"separateLineBetweenGroups\" value=\"true\"/>\n            <property name=\"customImportOrderRules\" value=\"STATIC###THIRD_PARTY_PACKAGE\"/>\n        </module>\n    </module>",
+    "support_level": "supported",
+    "explanation": ""
+  }
+]

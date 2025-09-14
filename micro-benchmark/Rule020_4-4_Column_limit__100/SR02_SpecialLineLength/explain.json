@@ -1,0 +1,8 @@
+[
+  {
+    "sub_rule": "SR02_SpecialLineLength",
+    "related_configuration": "<module name=\"LineLength\">\n        <property name=\"fileExtensions\" value=\"java\"/>\n        <property name=\"max\" value=\"100\"/>\n        <property name=\"ignorePattern\"\n                 value='^package.*|^import.*|href\\s*=\\s*&quot;[^&quot;]*&quot;|http://|https://|ftp://|^\\s*\"\"\".*|^\\s*\"\"\"\\s*$'/>\n    </module>",
+    "support_level": "under_supported",
+    "explanation": "Checkstyle's LineLength check only supports line-based exclusions via regex through 'ignorePattern'. While it can exclude lines like package/import statements and URLs, it cannot conditionally ignore long lines based on content type such as IDs, long text block contents, or instructions. As a result, line length enforcement is only partially supported."
+  }
+]

@@ -1,0 +1,8 @@
+[
+  {
+    "sub_rule": "SR08_InsideBraces",
+    "related_configuration": "",
+    "support_level": "supported",
+    "explanation": "optional rule"
+  }
+]

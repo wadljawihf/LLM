@@ -1,0 +1,8 @@
+[
+  {
+    "sub_rule": "SR01_OverrideAnnotation",
+    "related_configuration": "<module name=\"TreeWalker\">\n        <module name='MissingOverride'/>\n    </module>",
+    "support_level": "under_supported",
+    "explanation": "Violations of this guideline cannot be detected by Checkstyle due to its limitation, multiple file checking is not supported. The MissingOverride check may fail to report violations when the there is no inheritDoc."
+  }
+]

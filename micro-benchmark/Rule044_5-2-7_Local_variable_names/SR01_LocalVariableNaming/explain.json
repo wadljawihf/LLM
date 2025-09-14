@@ -1,0 +1,8 @@
+[
+  {
+    "sub_rule": "SR01_LocalVariableNaming",
+    "related_configuration": "<module name=\"TreeWalker\">\n        <module name=\"LocalVariableName\">\n            <property name=\"format\" value=\"^[a-z]([a-z0-9][a-zA-Z0-9]*)?$\"/>\n            <message key=\"name.invalidPattern\"\n                 value=\"Local variable name ''{0}'' must match pattern ''{1}''.\"/>\n        </module>\n        <module name=\"PatternVariableName\">\n            <property name=\"format\" value=\"^[a-z]([a-z0-9][a-zA-Z0-9]*)?$\"/>\n            <message key=\"name.invalidPattern\"\n                 value=\"Pattern variable name ''{0}'' must match pattern ''{1}''.\"/>\n        </module>\n    </module>",
+    "support_level": "supported",
+    "explanation": ""
+  }
+]

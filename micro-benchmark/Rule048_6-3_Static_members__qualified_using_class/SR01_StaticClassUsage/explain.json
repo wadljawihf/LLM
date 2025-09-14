@@ -1,0 +1,8 @@
+[
+  {
+    "sub_rule": "SR01_StaticClassUsage",
+    "related_configuration": "",
+    "support_level": "unsupported",
+    "explanation": "Violations of this guideline cannot be detected by Checkstyle due to its limitation, multiple file checking is not supported."
+  }
+]
