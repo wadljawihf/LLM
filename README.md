@@ -1,10 +1,44 @@
 # Replication of the Paper
 The replication package,and Appendix of the paper are in this repository.
 
-## 1-data.zip
-The file `data.zip` includes:
-* micro-benchmark
-  * `benchmark_one_by_one_full.xlsx`
+## 1-micro-benchmark
+### Introduction
+The `micro-benchmark` directory contains a collection of 55 rules derived from the Google Java Style Guide.
+These rules have been decomposed into 103 fine-grained sub-rules, with each sub-rule paired with its test files and `config.xml` to facilitate precise and reproducible evaluation.
+
+### Components
+The complete benchmark consists of two core components:
+1. Ground Truth Annotation File: A single Excel file, `benchmark_one_by_one_full.xlsx`, that provides manually annotated violation data for every sub-rule and test file.
+2. Structured Directory of Rules and Sub-Rules: Hierarchically organized folders containing rules, sub-rules, and their associated test files.
+
+
+```
+📁 micro-benchmark/
+ ├──📄 benchmark_one_by_one_full.xlsx
+ ├── 📁 RuleXXX_<rule-name>/
+ │    ├── 📄 rules.json
+ │    └── 📁 SR01_<sub-rule-name>/
+ │    │    ├── 📄 config.xml
+ │    │    ├── 📄 explain.json
+ │    │    └── 📁 files/
+ │    └── 📁 SR02_<sub-rule-name>/
+ │         ├── 📄 config.xml
+ │         ├── 📄 explain.json
+ │         └── 📁 files/
+ │
+ ├── 📁 RuleYYY_<rule-name>/
+ │    ├── 📄 rules.json
+ │    └── 📁 SR01_<sub-rule-name>/
+ │         ├── 📄 config.xml
+ │         ├── 📄 explain.json
+ │         └── 📁 files/
+ │
+ └── ...
+ 
+```
+
+## 2-metrics.zip
+The file `metrics.zip` includes:
 * checkstyle result:
   * `checkstyle_metrics_sub_rule.xlsx`
 * deepseek result:
@@ -26,6 +60,6 @@ The file `data.zip` includes:
   * `gpt_metrics_sub_rule_4.xlsx`
   * `gpt_metrics_sub_rule_5.xlsx`
 
- ## 2-appendixA.pdf
- The file `appendixA.pdf` shows the Appendix A.
+ ## 3-Appendix.pdf
+ The file `Appendix.pdf` shows the Appendix of the paper "Large Language Models for Code Linting: How Far Are We?".
  
