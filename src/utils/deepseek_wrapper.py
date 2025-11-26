@@ -11,7 +11,6 @@ from openai import OpenAI
 class DeepseekWrapper:
     def __init__(self, api_key: Optional[str] = None, base_url: str = "https://api.deepseek.com"):
         api_key = api_key or os.getenv("DEEPSEEK_API_KEY")
-        api_key = "sk-af3acc3ab71149c88cc65a98b77cb453"
         if not api_key:
             raise ValueError("DeepSeek API key not provided. Set DEEPSEEK_API_KEY or pass api_key.")
         self.client = OpenAI(api_key=api_key, base_url=base_url)
