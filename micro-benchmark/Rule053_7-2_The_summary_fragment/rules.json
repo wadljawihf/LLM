@@ -5,16 +5,12 @@
       {
         "sub_rule": "SR01_SummaryFragmentFormat",
         "content": "However, the fragment is capitalized and punctuated as if it were a complete sentence.",
-        "relationship": "包含关系",
-        "formalization": "summary_fragment must contain （first_capitalized_character ∨ punctuation marks）"
+        "relationship": "Containment Relation"
       },
       {
         "sub_rule": "SR02_SummaryFragmentPosition",
         "content": "Each Javadoc block begins with a brief summary fragment",
-        "relationship": "前伴随关系",
-        "formalization": "before Javadoc.block must be summary_fragment"
-
-
+        "relationship": "Accompany Relation"
       }
     ]
   }

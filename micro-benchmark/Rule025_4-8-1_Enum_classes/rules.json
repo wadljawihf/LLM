@@ -5,8 +5,7 @@
       {
         "sub_rule": "SR01_BlankLineAfterCommaInEnum",
         "content": "After each comma that follows an enum constant, a line break is optional. Additional blank lines (usually just one) are also allowed.",
-        "relationship": "后伴随关系",
-        "formalization": "after enum_constant.comma there could be line_break"
+        "relationship": "Accompany Relation"
       }
     ]
   }

@@ -5,20 +5,17 @@
       {
         "sub_rule": "SR01_MethodAnnotationPlace",
         "content": "The rules for annotations on method and constructor declarations are the same as the previous section.",
-        "relationship": "顺序关系",
-        "formalization": "documentation_block,(method ∨ constructor declarations).annotations must be arranged in the given order"
+        "relationship": "Order Relation"
       },
       {
         "sub_rule": "SR02_MethodAnnotationNum",
         "content": "The rules for annotations on method and constructor declarations are the same as the previous section.",
-        "relationship": "数量限定关系",
-        "formalization": "the quantity of line.annotation must be equal to 1"
+        "relationship": "Quantity Restriction Relation"
       },
       {
         "sub_rule": "SR03_MethodAnnotationSpecialCase",
         "content": "Exception: A single parameterless annotation may instead appear together with the first line of the signature, for example:\n\n@Override public int hashCode() { ... }",
-        "relationship": "后伴随关系",
-        "formalization": "before every method_signature.first_line there could be single_parameterless_annotation"
+        "relationship": "Accompany Relation"
       }
     ]
   }

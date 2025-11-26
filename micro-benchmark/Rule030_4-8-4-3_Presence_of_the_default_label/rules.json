@@ -5,8 +5,7 @@
       {
         "sub_rule": "SR01_SwitchNeedDefault",
         "content": "The Java language requires switch expressions and many kinds of switch statements to be exhaustive. That effectively means that every possible value that could be switched on will be matched by one of the switch labels. A switch is exhaustive if it has a default label, but also for example if the value being switched on is an enum and every value of the enum is matched by a switch label. Google Style requires every switch to be exhaustive, even those where the language itself does not require it. This may require adding a default label, even if it contains no code.",
-        "relationship": "包含关系",
-        "formalization": "switch_statement must contain default"
+        "relationship": "Containment Relation"
       }
     ]
   }

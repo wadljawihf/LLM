@@ -5,62 +5,52 @@
       {
         "sub_rule": "SR01_SpaceBetweenReservedWordAndOpenParenthesis",
         "content": "1. Separating any reserved word, such as if, for or catch, from an open parenthesis (() that follows it on that line",
-        "relationship": "间隔限定关系",
-        "formalization": "there must be whitespace bewtween reserved_word and open parenthesis (() that follows it"
+        "relationship": "Separation Relation"
       },
       {
         "sub_rule": "SR02_SpaceBetweenCloseBraceAndReservedWord",
         "content": "2. Separating any reserved word, such as else or catch, from a closing curly brace (}) that precedes it on that line",
-        "relationship": "间隔限定关系",
-        "formalization": "there must be whitespace bewtween reserved_word and closing curly brace (}) that precedes it"
+        "relationship": "Separation Relation"
       },
       {
         "sub_rule": "SR03_SpaceBeforeOpenBrace",
         "content": "3. Before any open curly brace ({), with two exceptions:\n·@SomeAnnotation({a, b}) (no space is used)\n·String[][] x = {{\"foo\"}}; (no space is required between {{, by item 9 below)",
-        "relationship": "前伴随关系",
-        "formalization": "before every open_curly_brace/(@SomeAnnotation({a,b}).open_curly_brace ∧String[][]x={{\"foo\"}}.open_curly_brace ) there must be whitespace"
+        "relationship": "Accompany Relation"
       },
       {
         "sub_rule": "SR04_SpaceAroundOperator",
         "content": "4. On both sides of any binary or ternary operator. This also applies to the following \"operator-like\" symbols:\n·the ampersand in a conjunctive type bound: <T extends Foo & Bar>\n·the pipe for a catch block that handles multiple exceptions: catch (FooException | BarException e)\n·the colon (:) in an enhanced for (\"foreach\") statement\n·the arrow in a lambda expression: (String str) -> str.length()\nbut not\n·the two colons (::) of a method reference, which is written like Object::toString\n·the dot separator (.), which is written like object.toString()",
-        "relationship": "前后伴随关系",
-        "formalization": "around binary_operator ∨ ternary_operator there must be whitespace"
+        "relationship": "Accompany Relation"
       },
       {
         "sub_rule": "SR05_SpaceAfterSeparator",
         "content": "5. After ,:; or the closing parenthesis ()) of a cast",
-        "relationship": "后伴随关系",
-        "formalization": "after (comma ∨ colon ∨ semicolon ∨ closing_parenthesis) there must be whitespace"
+        "relationship": "Accompany Relation"
       },
       {
         "sub_rule": "SR06_MultiSpaceAroundComment",
         "content": "6. Between any content and a double slash (//) which begins a comment. Multiple spaces are allowed.\n7. Between a double slash (//) which begins a comment and the comment's text. Multiple spaces are allowed.",
-        "relationship": "间隔限定关系",
-        "formalization": "there must be whitespace bewteen any content and a double slash (//) which begins a comment"
+        "relationship": "Separation Relation"
       },
       {
         "sub_rule": "SR07_SpaceBetweenTypeAndVariable",
         "content": "8. Between the type and variable of a declaration: List<String> list",
-        "relationship": "间隔限定关系",
-        "formalization": "there must be whitespace between type and declaration.variable"
+        "relationship": "Separation Relation"
       },
       {
         "sub_rule": "SR08_InsideBraces",
         "content": "9. Optional just inside both braces of an array initializer\n·new int[] {5, 6} and new int[] { 5, 6 } are both valid",
-        "relationship": "前后伴随关系",
-        "formalization": "around braces.content there may be whitespace"
+        "relationship": "Accompany Relation"
       },
       {
         "sub_rule": "SR09_SpaceBetweenTypeAnnotatioAndSpecialSignals",
         "content": "10. Between a type annotation and [] or ....",
-        "relationship": "间隔限定关系",
-        "formalization": "there must be whitespace between type_annotation and (brackets ∨ ellipsis)"
+        "relationship": "Separation Relation"
       },
       {
         "sub_rule": "SR10_SpaceAtTheStartOrEnd",
         "content": "This rule is never interpreted as requiring or forbidding additional space at the start or end of a line; it addresses only interior space.",
-        "relationship": "前后伴随关系",
-        "formalization": "around line there could be whitespace"
+        "relationship": "Accompany Relation"
       }
     ]
   }

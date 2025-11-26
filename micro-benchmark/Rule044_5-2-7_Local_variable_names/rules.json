@@ -5,8 +5,7 @@
       {
         "sub_rule": "SR01_LocalVariableNaming",
         "content": "Local variable names are written in lowerCamelCase.",
-        "relationship": "属性限定关系",
-        "formalization": "local_variable.name must be constrained to be lowerCamelCase"
+        "relationship": "Property Restriction Relation "
       }
     ]
   }

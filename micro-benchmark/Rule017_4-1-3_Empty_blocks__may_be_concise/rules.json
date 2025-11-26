@@ -5,8 +5,7 @@
       {
         "sub_rule": "SR01_ConciseForNonMultiblock",
         "content": "An empty block or block-like construct may be in K & R style (as described in Section 4.1.2). Alternatively, it may be closed immediately after it is opened, with no characters or line break in between ({}), unless it is part of a multi-block statement (one that directly contains multiple blocks: if/else or try/catch/finally).",
-        "relationship": "属性限定关系",
-        "formalization": "empty_block.style must be constrained to be K & R style"
+        "relationship": "Property Restriction Relation"
       }
     ]
   }

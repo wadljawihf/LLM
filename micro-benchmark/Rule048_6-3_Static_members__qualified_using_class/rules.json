@@ -5,8 +5,7 @@
       {
         "sub_rule": "SR01_StaticClassUsage",
         "content": "When a reference to a static class member must be qualified, it is qualified with that class's name, not with a reference or expression of that class's type.\n\nFoo aFoo = ...;\nFoo.aStaticMethod(); // good\naFoo.aStaticMethod(); // bad\nsomethingThatYieldsAFoo().aStaticMethod(); // very bad",
-        "relationship": "属性限定关系",
-        "formalization": "static_member.reference must be constrained to be class's name ∧ static_member.reference must not be constrained to be a reference or expression of that class's type"
+        "relationship": "Property Restriction Relation"
       }
     ]
   }

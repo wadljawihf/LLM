@@ -5,14 +5,12 @@
       {
         "sub_rule": "SR01_ParameterNaming",
         "content": "Parameter names are written in lowerCamelCase.",
-        "relationship": "属性限定关系",
-        "formalization": "parameter.name must be constrained to be lowerCamelCase"
+        "relationship": "Property Restriction Relation"
       },
       {
         "sub_rule": "SR02_AvoidSingleCharParameter",
         "content": "One-character parameter names in public methods should be avoided.",
-        "relationship": "数量限定关系",
-        "formalization": "the quantity of public methods.parameter.character must be greater than 1"
+        "relationship": "Quantity Restriction Relation"
       }
     ]
   }

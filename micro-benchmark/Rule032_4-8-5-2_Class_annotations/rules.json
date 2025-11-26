@@ -5,20 +5,17 @@
       {
         "sub_rule": "SR01_ClassModulePackageAnnotationPlace",
         "content": "Annotations applying to a class, package, or module declaration appear immediately after the documentation block",
-        "relationship": "顺序关系",
-        "formalization": "documentation_block,(class ∨ package ∨ module declaration).annotations must be arranged in the given order"
+        "relationship": "Order Relation"
       },
       {
         "sub_rule": "SR02_ClassModulePackageAnnotationNum",
         "content": "and each annotation is listed on a line of its own (that is, one annotation per line)",
-        "relationship": "数量限定关系",
-        "formalization": "the quantity of line.annotation must be equal to 1"
+        "relationship": "Quantity Restriction Relation"
       },
       {
         "sub_rule": "SR03_NoIndentationWhenBreak",
         "content": "These line breaks do not constitute line-wrapping (Section 4.5, Line-wrapping), so the indentation level is not increased",
-        "relationship": "数量限定关系",
-        "formalization": "(multiline annotation contain annotation1 and annotation2) => the quantity of annotation1.indentation must not be equal to annotation2.indentation"
+        "relationship": "Quantity Restriction Relation"
       }
     ]
   }

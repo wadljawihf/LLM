@@ -5,32 +5,27 @@
       {
         "sub_rule": "SR01_NoLineBreakBeforeOpeningBrace",
         "content": "No line break before the opening brace, except as detailed below.\nException: In places where these rules allow a single statement ending with a semicolon (;), a block of statements can appear, and the opening brace of this block is preceded by a line break. Blocks like these are typically introduced to limit the scope of local variables.",
-        "relationship": "伴随关系",
-        "formalization": "before (opening_brace \\ scope_block.opening_brace) must not be line_break"
+        "relationship": "伴随关系"
       },
       {
         "sub_rule": "SR02_LineBreakAfterOpeningBrace",
         "content": "Line break after the opening brace.",
-        "relationship": "伴随关系",
-        "formalization": "after opening_brace must be line_break"
+        "relationship": "Accompany Relation"
       },
       {
         "sub_rule": "SR03_LineBreakBeforeClosingBrace",
         "content": "Line break before the closing brace.",
-        "relationship": "伴随关系",
-        "formalization": "before closing_brace must be line_break"
+        "relationship": "Accompany Relation"
       },
       {
         "sub_rule": "SR04_LineBreakAfterClosingBrace",
         "content": "Line break after the closing brace, only if that brace terminates a statement or terminates the body of a method, constructor, or named class. For example, there is no line break after the brace if it is followed by else or a comma.",
-        "relationship": "伴随关系",
-        "formalization": "after (statement ∨ method_body ∨ constructor_body ∨ named_class_body).closing_brace must be line_break"
+        "relationship": "Accompany Relation"
       },
       {
         "sub_rule": "SR05_BreakBeforeScopeBlock",
         "content": "Exception: In places where these rules allow a single statement ending with a semicolon (;), a block of statements can appear, and the opening brace of this block is preceded by a line break. Blocks like these are typically introduced to limit the scope of local variables.",
-        "relationship": "",
-        "formalization": "before scope_block.opening_brace must be line_break"
+        "relationship": "Accompany Relation"
       }
     ]
   }

@@ -5,8 +5,7 @@
       {
         "sub_rule": "SR01_SpecialEscape",
         "content": "For any character that has a special escape sequence (\\b, \\t, \\n, \\f, \\r, \\\", \\' and \\\\), that sequence is used rather than the corresponding octal (e.g. \\012) or Unicode (e.g. \\u000a) escape.",
-        "relationship": "属性限定关系",
-        "formalization": "CharacterWithSpecialEscape ::= \"\\b\" | \"\\t\" | \"\\n\" | \"\\f\" | \"\\r\" | \"\\\"\" | \"\\'\" | \"\\\\\"\nCharacterWithSpecialEscape.EscapeStyle must not be constrained to be (OctalEscape ∨ UnicodeEscape)"
+        "relationship": "Property Restriction Relation"
       }
     ]
   }

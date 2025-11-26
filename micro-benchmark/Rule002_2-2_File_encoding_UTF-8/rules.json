@@ -5,8 +5,7 @@
       {
         "sub_rule": "SR01_UTF8",
         "content": "Source files are encoded in UTF-8.",
-        "relationship": "属性限定关系",
-        "formalization": "source_file.coding must be constrained to be UTF-8"
+        "relationship": "Property Restriction Relation"
       }
     ]
   }

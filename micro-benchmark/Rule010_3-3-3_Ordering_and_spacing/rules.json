@@ -5,14 +5,12 @@
       {
         "sub_rule": "SR01_ImportsSeparating",
         "content": "If there are both static and non-static imports, a single blank line separates the two blocks. There are no other blank lines between import statements.",
-        "relationship": "数量限定关系 ∧ 间隔限定关系 ∧ 间隔限定关系",
-        "formalization": "there must be single_blank_line between static_import_block and non_static_import_block ∧ the quantity of single_blank_line must be equal to 1"
+        "relationship": "Separation Relation"
       },
       {
         "sub_rule": "SR02_ImportsOrder",
         "content": "Imports are ordered as follows:\n\nAll static imports in a single block.\nAll non-static imports in a single block. Within each block the imported names appear in ASCII sort order. (Note: this is not the same as the import statements being in ASCII sort order, since '.' sorts before ';'.)",
-        "relationship": "顺序关系",
-        "formalization": ""
+        "relationship": "Order Relation"
       }
     ]
   }

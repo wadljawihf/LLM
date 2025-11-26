@@ -5,14 +5,12 @@
       {
         "sub_rule": "SR01_MethodNaming",
         "content": "Method names are written in lowerCamelCase.",
-        "relationship": "属性限定关系",
-        "formalization": "method.name must be constrained to be lowerCamelCase"
+        "relationship": "Property Restriction Relation"
       },
       {
         "sub_rule": "SR02_MethodNameVerb",
         "content": "Method names are typically verbs or verb phrases.",
-        "relationship": "属性限定关系",
-        "formalization": "method.name must be constrained to be verb_or_verb_phrase"
+        "relationship": "Property Restriction Relation"
       }
     ]
   }

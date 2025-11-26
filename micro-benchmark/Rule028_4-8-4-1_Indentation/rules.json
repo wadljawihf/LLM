@@ -5,8 +5,7 @@
       {
         "sub_rule": "SR01_SwitchIndentation",
         "content": "As with any other block, the contents of a switch block are indented +2. Each switch label starts with this +2 indentation.\n\nIn a new-style switch, a switch rule can be written on a single line if it otherwise follows Google style. (It must not exceed the column limit, and if it contains a non-empty block then there must be a line break after {.) The line-wrapping rules of Section 4.5 apply, including the +4 indent for continuation lines. For a switch rule with a non-empty block after the arrow, the same rules apply as for blocks elsewhere: lines between { and } are indented a further +2 relative to the line with the switch label.\n\nswitch (number) {\ncase 0, 1 -> handleZeroOrOne();\ncase 2 ->\nhandleTwoWithAnExtremelyLongMethodCallThatWouldNotFitOnTheSameLine();\ndefault -> {\nlogger.atInfo().log(\"Surprising number %s\", number);\nhandleSurprisingNumber(number);\n}\n}\nIn an old-style switch, the colon of each switch label is followed by a line break. The statements within a statement group start with a further +2 indentation.",
-        "relationship": "数量限定关系",
-        "formalization": "block.indentation must be constrained to be +2 spaces"
+        "relationship": "Quantity Restriction Relation"
       }
     ]
   }

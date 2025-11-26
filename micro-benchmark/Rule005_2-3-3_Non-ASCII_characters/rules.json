@@ -5,20 +5,17 @@
       {
         "sub_rule": "SR01_NonAsciiCharacter",
         "content": "For the remaining non-ASCII characters, either the actual Unicode character (e.g. ∞) or the equivalent Unicode escape (e.g. \\u221e) is used.",
-        "relationship": "属性限定关系",
-        "formalization": "non_ASCII_character must be constrained to be (Unicode_character ∨ Unicode_escape_character)"
+        "relationship": "Property Restriction Relation"
       },
       {
         "sub_rule": "SR02_EasierToRead",
         "content": "The choice depends only on which makes the code easier to read and understand",
-        "relationship": "属性优先关系",
-        "formalization": "Unicode_character.readability > Unicode_escape_character.readability => non_ASCII_character must be constrained to be Unicode_character ≻ non_ASCII_character must be constrained to be Unicode_escape_character;\nUnicode_escape_character.readability > Unicode_character.readability => non_ASCII_character must be constrained to be Unicode_escape_character≻ non_ASCII_character must be constrained to be Unicode_character;"
+        "relationship": "Property Restriction Relation"
       },
       {
         "sub_rule": "SR03_AvoidEscapedUnicodeCharacters",
         "content": "Unicode escapes outside string literals and comments are strongly discouraged.",
-        "relationship": "包含关系",
-        "formalization": "(source code \\ (string literals ∨ comments) ) may not contain Unicode escapes"
+        "relationship": "Containment Relation"
       }
     ]
   }

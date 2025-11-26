@@ -5,8 +5,7 @@
       {
         "sub_rule": "SR01_NoWildcardImport",
         "content": "Wildcard imports, static or otherwise, are not used.",
-        "relationship": "包含关系",
-        "formalization": "import_statement must not contain wildcard"
+        "relationship": "Containment Relation"
       }
     ]
   }

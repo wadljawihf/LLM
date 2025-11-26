@@ -5,14 +5,12 @@
       {
         "sub_rule": "SR01_NeedBraces",
         "content": "Braces are used with if, else, for, do and while statements, even when the body is empty or contains only a single statement.",
-        "relationship": "伴随关系",
-        "formalization": "before (if ∨ else ∨ for ∨ do ∨ while).body there must be brace"
+        "relationship": "Accompany Relation"
       },
       {
         "sub_rule": "SR02_OtherBracesOptional",
         "content": "Other optional braces, such as those in a lambda expression, remain optional.",
-        "relationship": "伴随关系",
-        "formalization": "before lambda_expression.body may be brace"
+        "relationship": "Accompany Relation"
       }
     ]
   }

@@ -5,14 +5,12 @@
       {
         "sub_rule": "SR01_PackageStatementLength",
         "content": "The column limit (Section 4.4, Column limit: 100) does not apply to package statements.",
-        "relationship": "数量限定关系",
-        "formalization": "the quantity of package_statement may be greater than100"
+        "relationship": "Quantity Restriction Relation"
       },
       {
         "sub_rule": "SR02_PackageStatementNoLineWrap",
         "content": "The package statement is not line-wrapped.",
-        "relationship": "包含关系",
-        "formalization": "package_statement must not contain line_wrapped_character"
+        "relationship": "Containment Relation"
       }
     ]
   }

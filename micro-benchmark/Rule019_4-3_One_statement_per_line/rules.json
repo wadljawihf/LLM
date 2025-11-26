@@ -5,8 +5,7 @@
       {
         "sub_rule": "SR01_OneStatementPerLine",
         "content": "Each statement is followed by a line break.",
-        "relationship": "数量限定关系",
-        "formalization": "the quantity of one_line.statements must be equal to 1"
+        "relationship": "Quantity Restriction Relation"
       }
     ]
   }

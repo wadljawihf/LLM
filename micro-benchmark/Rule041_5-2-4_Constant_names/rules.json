@@ -5,8 +5,7 @@
       {
         "sub_rule": "SR01_ConstantNaming",
         "content": "Constant names use UPPER_SNAKE_CASE: all uppercase letters, with each word separated from the next by a single underscore.",
-        "relationship": "属性限定关系",
-        "formalization": "constant.name must be constrained to be UPPER_SNAKE_CASE"
+        "relationship": "Property Restriction Relation"
       }
     ]
   }

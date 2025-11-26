@@ -5,14 +5,12 @@
       {
         "sub_rule": "SR01_OpenBlockIndentation",
         "content": "Each time a new block or block-like construct is opened, the indent increases by two spaces. The indent level applies to both code and comments throughout the block.",
-        "relationship": "数量限定关系",
-        "formalization": "E0 := block-like construct\nE1 := The Line Before E0 Opens\nMANDATORY: QUANTITY(E0.Indentation, =, E1.Indentation + 2)"
+        "relationship": "Quantity Restriction Relation"
       },
       {
         "sub_rule": "SR02_EndedBlockIndentation",
         "content": "When the block ends, the indent returns to the previous indent level. The indent level applies to both code and comments throughout the block.",
-        "relationship": "数量限定关系",
-        "formalization": "E0 := block-like construct\nE2 := The Line After E0 Ends\nMANDATORY: QUANTITY(E2.Indentation, =, E0.Indentation - 2)"
+        "relationship": "Quantity Restriction Relation"
       }
     ]
   }

@@ -5,14 +5,12 @@
       {
         "sub_rule": "SR01_WrappingIndentation",
         "content": "When line-wrapping, each line after the first (each continuation line) is indented at least +4 from the original line.",
-        "relationship": "数量限定关系",
-        "formalization": "the quantity of continuation_line.indentation must be greater than or equal to original_line.indentation + 4"
+        "relationship": "Quantity Restriction Relation"
       },
       {
         "sub_rule": "SR02_SameIndentationForParallelElement",
         "content": "When there are multiple continuation lines, indentation may be varied beyond +4 as desired. In general, two continuation lines use the same indentation level if and only if they begin with syntactically parallel elements.",
-        "relationship": "数量限定关系",
-        "formalization": "the quantity of begin_with_syntactically_parallel_elements_line1.indentation must be equal to begin_with_syntactically_parallel_elements_line2.indentation"
+        "relationship": "Quantity Restriction Relation"
       }
     ]
   }

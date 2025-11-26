@@ -5,14 +5,12 @@
       {
         "sub_rule": "SR01_ModuleDirectivesOrder",
         "content": "Module directives are ordered as follows:\n\nAll requires directives in a single block.\nAll exports directives in a single block.\nAll opens directives in a single block.\nAll uses directives in a single block.\nAll provides directives in a single block.",
-        "relationship": "顺序关系",
-        "formalization": ""
+        "relationship": "Order Relation"
       },
       {
         "sub_rule": "SR02_OneBlankLineSeparatingDirectives",
         "content": "A single blank line separates each block that is present.",
-        "relationship": "间隔限定关系",
-        "formalization": ""
+        "relationship": "Separation Relation"
       }
     ]
   }

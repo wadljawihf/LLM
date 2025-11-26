@@ -5,8 +5,7 @@
       {
         "sub_rule": "SR01_FallThroughCommentInOldStyleSwitch",
         "content": "Within a switch block, each statement group either terminates abruptly (with a break, continue, return or thrown exception), or is marked with a comment to indicate that execution will or might continue into the next statement group. Any comment that communicates the idea of fall-through is sufficient (typically // fall through). This special comment is not required in the last statement group of the switch block. Example:\n\nswitch (input) {\ncase 1:\ncase 2:\nprepareOneOrTwo();\n// fall through\ncase 3:\nhandleOneTwoOrThree();\nbreak;\ndefault:\nhandleLargeNumber(input);\n}\nNotice that no comment is needed after case 1:, only at the end of the statement group.",
-        "relationship": "后伴随关系",
-        "formalization": "after switch.statement_group must be ((a break, continue, return or thrown exception)∨ fall_through_comment)"
+        "relationship": "Accompany Relation"
       }
     ]
   }

@@ -5,8 +5,7 @@
       {
         "sub_rule": "SR01_OneTopLevelClass",
         "content": "Each top-level class resides in a source file of its own.",
-        "relationship": "数量限定关系",
-        "formalization": "the quantity of top_level_class must be equal to 1"
+        "relationship": "Quantity Restriction Relation"
       }
     ]
   }

@@ -5,14 +5,12 @@
       {
         "sub_rule": "SR01_BlankLinePosition",
         "content": "One blank line—that is, a line containing only the aligned leading asterisk (*)—appears between paragraphs, and before the group of block tags if present.",
-        "relationship": "间隔限定关系 ∧ 前伴随关系",
-        "formalization": "there must be One blank line—that is, a line containing only the aligned leading asterisk (*) between paragraphs ∧ before the group of block tags must be One blank line—that is, a line containing only the aligned leading asterisk (*)"
+        "relationship": "Separation Relation"
       },
       {
         "sub_rule": "SR02_Paragraphs",
         "content": "Each paragraph except the first has <p> immediately before the first word",
-        "relationship": "前伴随关系",
-        "formalization": "before paragraph.the_first_word except the first paragraph must be <p>"
+        "relationship": "Accompany Relation"
       }
     ]
   }

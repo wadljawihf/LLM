@@ -5,20 +5,17 @@
       {
         "sub_rule": "SR01_BlockTagOrder",
         "content": "Any of the standard \"block tags\" that are used appear in the order @param, @return, @throws, @deprecated,",
-        "relationship": "顺序关系",
-        "formalization": "block_tag.@param, block_tag.@return, block_tag.@throws, block_tag.@deprecated must be arranged in the given order"
+        "relationship": "Order Relation"
       },
       {
         "sub_rule": "SR02_NoEmptyDesciptionInBlockTag",
         "content": "and these four types never appear with an empty description",
-        "relationship": "包含关系",
-        "formalization": "(block_tag.@param ∨ block_tag.@return ∨ block_tag.@throws ∨ block_tag.@deprecated).description must contain character"
+        "relationship": "Containment Relation"
       },
       {
         "sub_rule": "SR03_LineBreakInBlockTag",
         "content": "When a block tag doesn't fit on a single line, continuation lines are indented four (or more) spaces from the position of the @.",
-        "relationship": "数量限定关系",
-        "formalization": "the quantity of continuation_line_tag.indentation must be greater than or equal to @.indentation + 4"
+        "relationship": "Quantity Restriction Relation"
       }
     ]
   }

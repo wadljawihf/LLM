@@ -5,8 +5,7 @@
       {
         "sub_rule": "SR01_OverloadsNeverSplit",
         "content": "Methods of a class that share the same name appear in a single contiguous group with no other members in between.",
-        "relationship": "间隔限定关系",
-        "formalization": "there must not be other_members between method_with_same_name"
+        "relationship": "Separation Relation"
       }
     ]
   }

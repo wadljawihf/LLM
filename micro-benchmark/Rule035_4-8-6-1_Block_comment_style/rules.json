@@ -5,20 +5,17 @@
       {
         "sub_rule": "SR01_BlockIndentation",
         "content": "Block comments are indented at the same level as the surrounding code",
-        "relationship": "数量限定关系",
-        "formalization": "the quantity of Block comments.annotation must be equal to surrounding code.annotation"
+        "relationship": "Quantity Restriction Relation"
       },
       {
         "sub_rule": "SR02_MultiLineComment",
         "content": "For multi-line /* ... */ comments, subsequent lines must start with * aligned with the * on the previous line.",
-        "relationship": "前伴随关系",
-        "formalization": "before multi-line comments.line must be * ∧ line.star.arrangement must be constrained to be aligned"
+        "relationship": "Accompany Relation "
       },
       {
         "sub_rule": "SR03_NoDrawnBoxes",
         "content": "Comments are not enclosed in boxes drawn with asterisks or other characters.",
-        "relationship": "被包含关系",
-        "formalization": "comment must not be contained in box_drawing_characters"
+        "relationship": "Containment Relation"
       }
     ]
   }

@@ -9,32 +9,27 @@
       {
         "sub_rule": "SR01_BreakBeforeNonAssignmentOperator",
         "content": "1. When a line is broken at a non-assignment operator the break comes before the symbol. (Note that this is not the same practice used in Google style for other languages, such as C++ and JavaScript.)\n·This also applies to the following \"operator-like\" symbols:\n-the dot separator (.)\n-the two colons of a method reference (::)\n-an ampersand in a type bound (<T extends Foo & Bar>)\n-a pipe in a catch block (catch (FooException | BarException e)).",
-        "relationship": "前伴随关系",
-        "formalization": "non_assignment_operator_line contain line_break => before non_assignment_operator must be line_break"
+        "relationship": "Accompany Relation"
       },
       {
         "sub_rule": "SR02_BreakAfterAssignmentOperator",
         "content": "2. When a line is broken at an assignment operator the break typically comes after the symbol, but either way is acceptable.\n·This also applies to the \"assignment-operator-like\" colon in an enhanced for (\"foreach\") statement.",
-        "relationship": "后伴随关系",
-        "formalization": "assignment_operator_line contain line_break => before assignment_operator may be line_break ∧ after assignment_operator may be line_break"
+        "relationship": "Accompany Relation"
       },
       {
         "sub_rule": "SR03_NameAttachToParenthesis",
         "content": "A method, constructor, or record-class name stays attached to the open parenthesis (() that follows it.",
-        "relationship": "间隔限定关系",
-        "formalization": "there must not be character between (method ∨ constructor ∨ record-class).name and the open parenthesis (() that follows it"
+        "relationship": "Separation Relation"
       },
       {
         "sub_rule": "SR04_CommaAttachToTokenPrecedes",
         "content": "4. A comma (,) stays attached to the token that precedes it.",
-        "relationship": "间隔限定关系",
-        "formalization": "there must not be character between comma (,) and the token that precedes it"
+        "relationship": "Separation Relation"
       },
       {
         "sub_rule": "SR05_NoArrowBreak",
         "content": "5.A line is never broken adjacent to the arrow in a lambda or a switch rule, except that a break may come immediately after the arrow if the text following it consists of a single unbraced expression. Examples:\nMyLambda<String, Long, Object> lambda =\n(String label, Long value, Object obj) -> {\n...\n};\n\nPredicate<String> predicate = str ->\nlongExpressionInvolving(str);\n\nswitch (x) {\ncase ColorPoint(Color color, Point(int x, int y)) ->\nhandleColorPoint(color, x, y);\n...\n}",
-        "relationship": "伴随关系",
-        "formalization": "around lambda_arrow there must not be line_break"
+        "relationship": "Accompany Relation"
       }
     ]
   }

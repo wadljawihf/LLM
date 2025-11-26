@@ -5,8 +5,7 @@
       {
         "sub_rule": "SR01_NoStaticNestedClassImport",
         "content": "Static import is not used for static nested classes. They are imported with normal imports.",
-        "relationship": "包含关系",
-        "formalization": "static_import must not contain static_nested_class"
+        "relationship": "Containment Relation"
       }
     ]
   }
