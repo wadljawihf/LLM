@@ -1,5 +1,5 @@
 # Replication of the Paper
-The replication package of the paper are in this repository.
+The replication package of the paper "How Far Are We in Code Linting? Benchmarking Linters and LLMs on Coding Standards" are in this repository.
 
 ## 1-micro-benchmark
 ### Introduction
