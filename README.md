@@ -1,5 +1,5 @@
 # Replication of the Paper
-The replication package,and Appendix of the paper are in this repository.
+The replication package of the paper are in this repository.
 
 ## 1-micro-benchmark
 ### Introduction
@@ -63,7 +63,4 @@ The file `metrics.zip` includes:
   * `gpt_metrics_sub_rule_3.xlsx`
   * `gpt_metrics_sub_rule_4.xlsx`
   * `gpt_metrics_sub_rule_5.xlsx`
-
- ## 3-Appendix.pdf
- The file `Appendix.pdf` shows the Appendix of the paper "Large Language Models for Code Linting: How Far Are We?".
 
