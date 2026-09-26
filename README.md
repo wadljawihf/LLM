@@ -64,3 +64,13 @@ The file `metrics.zip` includes:
   * `gpt_metrics_sub_rule_4.xlsx`
   * `gpt_metrics_sub_rule_5.xlsx`
 
+## 3-LLM-rerun.zip
+
+The file `LLM-rerun.zip` includes:
+* revised Java benchmark files:
+  * 122 files with potentially informative content replaced
+* DeepSeek rerun results:
+  * raw outputs from five runs
+  * evaluation summaries for five runs
+* replacement mapping:
+  * used to compute the updated confusion matrices
